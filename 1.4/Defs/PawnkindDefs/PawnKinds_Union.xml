@@ -14,7 +14,7 @@
         <itemQuality>Normal</itemQuality>
         <gearHealthRange>0.6~1.1</gearHealthRange>
         <techHediffsChance>0.06</techHediffsChance>
-        <weaponMoney>250~350</weaponMoney>
+        <weaponMoney>250~400</weaponMoney>
         <weaponTags>
             <li>Gun</li>
         </weaponTags>
