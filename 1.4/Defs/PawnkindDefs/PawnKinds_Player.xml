@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+		<defName>ATR_M1WarriorColony</defName>
+		<label>M1 Newboot Warrior</label>
+		<race>ATR_Mark1Warrior</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>ATR_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+</Defs>

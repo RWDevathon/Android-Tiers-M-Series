@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Childhood -->
+	<BackstoryDef>
+		<defName>ATR_MechChildhoodMilitaryDrone</defName>
+		<title>Drone</title>
+		<titleShort>Drone</titleShort>
+		<baseDesc>{PAWN_nameDef} has a "childhood" that consists of exactly one value - {PAWN_possessive} activation timestamp.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ATR_MSeriesBasic</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+    <!-- Adulthood -->
+	<BackstoryDef>
+		<defName>ATR_MechAdulthoodMilitaryDrone</defName>
+		<title>Military Drone</title>
+		<titleShort>Drone</titleShort>
+		<baseDesc>{PAWN_nameDef} is a military style drone, designed and programmed for combat purposes only.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ATR_MSeriesBasic</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+</Defs>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="ATR_AndroidMakerBase">
+        <defName>ATR_CreateMark1Warrior</defName>
+        <label>Create M1 Warrior</label>
+        <description>Create an M1 Warrior from steel, plasteel and components.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>90</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>14</count>
+            </li>
+        </ingredients>
+        <products>
+            <ATR_M1WarriorGenerator>1</ATR_M1WarriorGenerator>
+        </products>
+        <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
+        <workAmount>16500</workAmount>
+    </RecipeDef>
+    
+</Defs>

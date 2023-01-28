@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
+        <defName>ATR_M1WarriorUnion</defName>
+		<label>M1 Union Drone Soldier</label>
+		<labelPlural>Drone soldiers</labelPlural>
+        <race>ATR_Mark1Warrior</race>
+        <combatPower>120</combatPower>
+        <invNutrition>3.25</invNutrition>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <aiAvoidCover>true</aiAvoidCover>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.1</gearHealthRange>
+        <techHediffsChance>0.06</techHediffsChance>
+        <weaponMoney>250~350</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <techHediffsMoney>50~200</techHediffsMoney>
+        <inventoryOptions>
+            <skipChance>0.95</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>17~26</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

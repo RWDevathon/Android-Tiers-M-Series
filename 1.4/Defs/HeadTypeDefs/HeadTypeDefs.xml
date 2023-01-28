@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Mark 1 -->
+    <!-- None -->
+
+    <HeadTypeDef>
+        <defName>ATR_Mark1_None</defName>
+        <graphicPath>Things/Pawns/Humanlikes/Mark1/head/None_Average_Normal</graphicPath>
+        <gender>None</gender>
+    </HeadTypeDef>
+
+</Defs>

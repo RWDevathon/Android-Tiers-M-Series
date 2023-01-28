@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+	<!-- Add the M1 warrior to combat and settlement group makers for the Android Union. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="ATR_AndroidUnion"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options</xpath>
+		<value>
+            <ATR_M1WarriorUnion>6</ATR_M1WarriorUnion>
+		</value>
+	</Operation>
+
+</Patch>
