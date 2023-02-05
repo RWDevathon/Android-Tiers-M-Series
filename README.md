@@ -10,9 +10,10 @@ Android Tiers itself is a mod that intends to add mechanical colonists, animals,
 ## Features
 * Introduction of the M-Series line of mechanical warrior units to RimWorld, using ATR's mechanical framework.
 * For now, just the M1 Warrior drone, a simple, cheap, but very robust drone for combat purposes, and the ability to manufacture it.
+* All M-Series units have high base stats, but can not wear apparel due to their oddly shaped chassis and built-in features.
 
 ## Objectives Remaining
-* Implementation of M1 - M8, with interesting mechanics and differences, all focused around utility in combat and survivability.
+* Implementation of M2 - M8, with interesting mechanics and differences, all focused around utility in combat and survivability.
 * DLC specific abilities or content.
 * Other stuff.
 * Actual proper graphics.
