@@ -13,7 +13,16 @@
             <li>ATR_Inorganic</li>
 		</spawnCategories>
 		<workDisables>
-			<li>AllWork</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Cooking</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Constructing</li>
 		</workDisables>
 	</BackstoryDef>
 
@@ -31,7 +40,16 @@
             <li>ATR_Inorganic</li>
 		</spawnCategories>
 		<workDisables>
-			<li>AllWork</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Cooking</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
+			<li>Constructing</li>
 		</workDisables>
 	</BackstoryDef>
 
