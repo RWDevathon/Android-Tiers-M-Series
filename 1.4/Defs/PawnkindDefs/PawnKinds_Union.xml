@@ -6,7 +6,7 @@
 		<label>M1 Union Drone Soldier</label>
 		<labelPlural>Drone soldiers</labelPlural>
         <race>ATR_Mark1Warrior</race>
-        <combatPower>120</combatPower>
+        <combatPower>100</combatPower>
         <invNutrition>3.25</invNutrition>
         <minGenerationAge>20</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
@@ -19,6 +19,37 @@
             <li>Gun</li>
         </weaponTags>
         <techHediffsMoney>50~200</techHediffsMoney>
+        <inventoryOptions>
+            <skipChance>0.95</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>17~26</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
+        <defName>ATR_M2BishopUnion</defName>
+		<label>M2 Union Drone Soldier</label>
+		<labelPlural>Drone soldiers</labelPlural>
+        <race>ATR_Mark2Bishop</race>
+        <combatPower>140</combatPower>
+        <invNutrition>3.25</invNutrition>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <aiAvoidCover>false</aiAvoidCover>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.4</gearHealthRange>
+        <techHediffsChance>0.12</techHediffsChance>
+        <weaponMoney>400~700</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <techHediffsMoney>100~800</techHediffsMoney>
         <inventoryOptions>
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>

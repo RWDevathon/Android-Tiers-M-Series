@@ -10,4 +10,13 @@
         <gender>None</gender>
     </HeadTypeDef>
 
+    <!-- Mark 2 -->
+    <!-- None -->
+
+    <HeadTypeDef>
+        <defName>ATR_Mark2_None</defName>
+        <graphicPath>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal</graphicPath>
+        <gender>None</gender>
+    </HeadTypeDef>
+
 </Defs>

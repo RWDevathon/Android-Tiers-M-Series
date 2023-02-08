@@ -37,5 +37,58 @@
         <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
         <workAmount>16500</workAmount>
     </RecipeDef>
-    
+
+    <RecipeDef ParentName="ATR_AndroidMakerBase">
+        <defName>ATR_CreateMark2Bishop</defName>
+        <label>Create M2 Bishop</label>
+        <description>Create an M2 Bishop from steel, plasteel and components.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Gold</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <ATR_M2BishopGenerator>1</ATR_M2BishopGenerator>
+        </products>
+        <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
+        <workAmount>16500</workAmount>
+    </RecipeDef>
+
 </Defs>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>	
+<Patch>
 
-	<!-- Add the M1 to the mechanical surgery abstract class so it gets all appropriate mechanical surgeries -->
+	<!-- Add the MSeries units to the mechanical surgery abstract class so it gets all appropriate mechanical surgeries -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[@Name="ATR_surgeryMechanical"]/recipeUsers</xpath>
 		<value>
             <li>ATR_Mark1Warrior</li>
+            <li>ATR_Mark2Bishop</li>
 		</value>
 	</Operation>
 

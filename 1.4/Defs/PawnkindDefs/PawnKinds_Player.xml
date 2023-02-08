@@ -14,4 +14,17 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+		<defName>ATR_M2BishopColony</defName>
+		<label>M2 Newboot Bishop</label>
+		<race>ATR_Mark2Bishop</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>ATR_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
 </Defs>

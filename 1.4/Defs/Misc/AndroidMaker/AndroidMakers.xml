@@ -15,5 +15,20 @@
             </li>
         </comps>
     </ThingDef>
-    
+
+    <ThingDef ParentName="ATR_GeneratorBase">
+        <defName>ATR_M2BishopGenerator</defName>
+        <label>M2 Bishop</label>
+        <description>An uninitialized Mark 2 Bishop. Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With four legs, four arms, and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't solely suffice and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line unrelentingly.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="ATReforged.CompProperties_GenericSpawner">
+                <pawnKind>ATR_M2BishopColony</pawnKind>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

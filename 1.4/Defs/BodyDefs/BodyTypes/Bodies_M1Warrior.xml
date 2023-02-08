@@ -2,7 +2,7 @@
 <Defs>
 
     <BodyDef>
-        <defName>ATR_MechMark1Body</defName>
+        <defName>ATR_Mark1Body</defName>
         <label>Android</label>
         <corePart>
             <def>ATR_CoreIntegrityCage</def>
@@ -370,5 +370,5 @@
             </parts>
         </corePart>
     </BodyDef>
-  
+
 </Defs>
