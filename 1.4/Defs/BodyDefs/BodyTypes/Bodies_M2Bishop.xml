@@ -184,388 +184,126 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ATR_MechanicalShoulder</def>
-                            <customLabel>forward left shoulder</customLabel>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>first limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
                                 <li>Shoulders</li>
-                            </groups>
-                            <parts>
-                                <li>
-                                    <def>ATR_MechanicalArm</def>
-                                    <customLabel>forward left arm</customLabel>
-                                    <coverage>0.85</coverage>
-                                    <groups>
-                                        <li>Arms</li>
-                                    </groups>
-                                    <parts>
-                                        <li>
-                                            <def>ATR_MechanicalHand</def>
-                                            <customLabel>forward left hand</customLabel>
-                                            <coverage>0.2</coverage>
-                                            <height>Bottom</height>
-                                            <groups>
-                                                <li>Hands</li>
-                                            </groups>
-                                            <parts>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-left pinky</customLabel>
-                                                    <coverage>0.06</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-left ring finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-left middle finger</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-left index finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-left thumb</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                            </parts>
-                                        </li>
-                                    </parts>
-                                </li>
-                            </parts>
-                        </li>
-                        <li>
-                            <def>ATR_MechanicalShoulder</def>
-                            <customLabel>forward right shoulder</customLabel>
-                            <coverage>0.06</coverage>
-                            <groups>
-                                <li>Shoulders</li>
-                            </groups>
-                            <parts>
-                                <li>
-                                    <def>ATR_MechanicalArm</def>
-                                    <customLabel>forward right arm</customLabel>
-                                    <coverage>0.85</coverage>
-                                    <groups>
-                                        <li>Arms</li>
-                                    </groups>
-                                    <parts>
-                                        <li>
-                                            <def>ATR_MechanicalHand</def>
-                                            <customLabel>forward right hand</customLabel>
-                                            <coverage>0.2</coverage>
-                                            <height>Bottom</height>
-                                            <groups>
-                                                <li>Hands</li>
-                                            </groups>
-                                            <parts>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-right pinky</customLabel>
-                                                    <coverage>0.06</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>RightHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-right ring finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>RightHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-right middle finger</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>RightHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-right index finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>RightHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>fore-right thumb</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>RightHand</li>
-                                                    </groups>
-                                                </li>
-                                            </parts>
-                                        </li>
-                                    </parts>
-                                </li>
-                            </parts>
-                        </li>
-                        <li>
-                            <def>ATR_MechanicalShoulder</def>
-                            <customLabel>rear left shoulder</customLabel>
-                            <coverage>0.06</coverage>
-                            <groups>
-                                <li>Shoulders</li>
-                            </groups>
-                            <parts>
-                                <li>
-                                    <def>ATR_MechanicalArm</def>
-                                    <customLabel>rear left arm</customLabel>
-                                    <coverage>0.85</coverage>
-                                    <groups>
-                                        <li>Arms</li>
-                                    </groups>
-                                    <parts>
-                                        <li>
-                                            <def>ATR_MechanicalHand</def>
-                                            <customLabel>rear left hand</customLabel>
-                                            <coverage>0.2</coverage>
-                                            <height>Bottom</height>
-                                            <groups>
-                                                <li>Hands</li>
-                                            </groups>
-                                            <parts>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-left pinky</customLabel>
-                                                    <coverage>0.06</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-left ring finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-left middle finger</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-left index finger</customLabel>
-                                                    <coverage>0.07</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-left thumb</customLabel>
-                                                    <coverage>0.08</coverage>
-                                                    <groups>
-                                                        <li>Hands</li>
-                                                        <li>LeftHand</li>
-                                                    </groups>
-                                                </li>
-                                            </parts>
-                                        </li>
-                                    </parts>
-                                </li>
-                            </parts>
-                        </li>
-                        <li>
-                            <def>ATR_MechanicalShoulder</def>
-                            <customLabel>rear right shoulder</customLabel>
-                            <coverage>0.06</coverage>
-                            <groups>
-                                <li>Shoulders</li>
-                            </groups>
-                            <parts>
-                                <li>
-                                    <def>ATR_MechanicalArm</def>
-                                    <customLabel>rear right arm</customLabel>
-                                    <coverage>0.85</coverage>
-                                    <groups>
-                                        <li>Arms</li>
-                                    </groups>
-                                    <parts>
-                                        <li>
-                                            <def>ATR_MechanicalHand</def>
-                                            <customLabel>rear right hand</customLabel>
-                                            <coverage>0.2</coverage>
-                                            <height>Bottom</height>
-                                            <groups>
-                                                <li>Hands</li>
-                                            </groups>
-                                            <parts>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-right pinky</customLabel>
-                                                    <coverage>0.15</coverage>
-                                                    <groups>
-                                                        <li>RightHand</li>
-                                                        <li>Hands</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-right ring finger</customLabel>
-                                                    <coverage>0.15</coverage>
-                                                    <groups>
-                                                        <li>RightHand</li>
-                                                        <li>Hands</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-right middle finger</customLabel>
-                                                    <coverage>0.15</coverage>
-                                                    <groups>
-                                                        <li>RightHand</li>
-                                                        <li>Hands</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-right index finger</customLabel>
-                                                    <coverage>0.15</coverage>
-                                                    <groups>
-                                                        <li>RightHand</li>
-                                                        <li>Hands</li>
-                                                    </groups>
-                                                </li>
-                                                <li>
-                                                    <def>ATR_MechanicalFinger</def>
-                                                    <customLabel>rear-right thumb</customLabel>
-                                                    <coverage>0.15</coverage>
-                                                    <groups>
-                                                        <li>RightHand</li>
-                                                        <li>Hands</li>
-                                                    </groups>
-                                                </li>
-                                            </parts>
-                                        </li>
-                                    </parts>
-                                </li>
-                            </parts>
-                        </li>
-                        <li>
-                            <def>ATR_MechanicalWaist</def>
-                            <coverage>0</coverage>
-                            <height>Bottom</height>
-                            <groups>
-                                <li>Waist</li>
-                            </groups>
-                        </li>
-                        <li>
-                            <def>ATR_MechanicalLeg</def>
-                            <customLabel>forward left leg</customLabel>
-                            <coverage>0.08</coverage>
-                            <height>Bottom</height>
-                            <groups>
+                                <li>Arms</li>
                                 <li>Legs</li>
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ATR_MechanicalFoot</def>
-                                    <customLabel>forward left foot</customLabel>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>first manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
+                                        <li>Hands</li>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                             </parts>
                         </li>
                         <li>
-                            <def>ATR_MechanicalLeg</def>
-                            <customLabel>forward right leg</customLabel>
-                            <coverage>0.08</coverage>
-                            <height>Bottom</height>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>second limb</customLabel>
+                            <coverage>0.06</coverage>
                             <groups>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
                                 <li>Legs</li>
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ATR_MechanicalFoot</def>
-                                    <customLabel>forward right foot</customLabel>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>second manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
+                                        <li>Hands</li>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                             </parts>
                         </li>
                         <li>
-                            <def>ATR_MechanicalLeg</def>
-                            <customLabel>rear left leg</customLabel>
-                            <coverage>0.08</coverage>
-                            <height>Bottom</height>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>third limb</customLabel>
+                            <coverage>0.06</coverage>
                             <groups>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
                                 <li>Legs</li>
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ATR_MechanicalFoot</def>
-                                    <customLabel>rear left foot</customLabel>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>third manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
+                                        <li>Hands</li>
                                         <li>Feet</li>
                                     </groups>
                                 </li>
                             </parts>
                         </li>
                         <li>
-                            <def>ATR_MechanicalLeg</def>
-                            <customLabel>rear right leg</customLabel>
-                            <coverage>0.08</coverage>
-                            <height>Bottom</height>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>fourth limb</customLabel>
+                            <coverage>0.06</coverage>
                             <groups>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
                                 <li>Legs</li>
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ATR_MechanicalFoot</def>
-                                    <customLabel>rear right foot</customLabel>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>fourth manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
+                                        <li>Hands</li>
+                                        <li>Feet</li>
+                                    </groups>
+                                </li>
+                            </parts>
+                        </li>
+                        <li>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>fifth limb</customLabel>
+                            <coverage>0.06</coverage>
+                            <groups>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
+                                <li>Legs</li>
+                            </groups>
+                            <parts>
+                                <li>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>fifth manipulator</customLabel>
+                                    <coverage>0.3</coverage>
+                                    <groups>
+                                        <li>Hands</li>
+                                        <li>Feet</li>
+                                    </groups>
+                                </li>
+                            </parts>
+                        </li>
+                        <li>
+                            <def>ATR_MechanicalLimb</def>
+                            <customLabel>sixth limb</customLabel>
+                            <coverage>0.06</coverage>
+                            <groups>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
+                                <li>Legs</li>
+                            </groups>
+                            <parts>
+                                <li>
+                                    <def>ATR_MechanicalManipulator</def>
+                                    <customLabel>sixth manipulator</customLabel>
+                                    <coverage>0.3</coverage>
+                                    <groups>
+                                        <li>Hands</li>
                                         <li>Feet</li>
                                     </groups>
                                 </li>

@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
 		<defName>ATR_Mark2Bishop</defName>
 		<label>M2 Bishop</label>
-		<description>Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With four legs, four arms, and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't be engaged in full capacity and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
+		<description>Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't be engaged in full capacity and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
 		<alienRace>
 			<raceRestriction>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
@@ -70,13 +70,13 @@
 		</statBases>
 		<tools>
 			<li>
-				<label>right fist</label>
+				<label>manipulator</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>0.8</cooldownTime>
-				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<cooldownTime>0.75</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -87,13 +87,13 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>left fist</label>
+				<label>manipulator</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Stab</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>0.8</cooldownTime>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -102,6 +102,7 @@
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
+				<chanceFactor>0.75</chanceFactor>
 			</li>
 			<li>
 				<label>bodyslam</label>
@@ -109,7 +110,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>10</power>
-				<cooldownTime>1</cooldownTime>
+				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>

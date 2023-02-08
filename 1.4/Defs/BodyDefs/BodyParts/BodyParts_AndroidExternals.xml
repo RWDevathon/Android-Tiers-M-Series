@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartDef>
+        <defName>ATR_MechanicalLimb</defName>
+        <label>limb</label>
+        <hitPoints>20</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <tags>
+            <li>MovingLimbCore</li>
+            <li>ManipulationLimbCore</li>
+        </tags>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>ATR_MechanicalManipulator</defName>
+        <label>manipulator</label>
+        <hitPoints>10</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <frostbiteVulnerability>0.01</frostbiteVulnerability>
+        <tags>
+            <li>MovingLimbSegment</li>
+            <li>ManipulationLimbSegment</li>
+        </tags>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+</Defs>
