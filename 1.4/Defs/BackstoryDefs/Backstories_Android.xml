@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Childhood -->
+	<BackstoryDef>
+		<defName>ATM_MechChildhoodPaladinGallant</defName>
+		<title>Paladin Gallant</title>
+		<titleShort>Gallant</titleShort>
+		<baseDesc>{PAWN_nameDef} was forged and activated a member of the warrior society of paladins - a society born not of faction, culture, or ideology, but of body and purpose. By virtue of creation, {PAWN_pronoun} was a gallant - yet to earn the title of paladin.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+            <li>ATM_MSeriesPaladin</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+        <skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Bloodlust />
+        </forcedTraits>
+        <disallowedTraits>
+            <Tough />
+        </disallowedTraits>
+	</BackstoryDef>
+
+    <!-- Adulthood -->
+	<BackstoryDef>
+		<defName>ATM_MechAdulthoodPaladinBattlemaster</defName>
+		<title>Paladin Battlemaster</title>
+		<titleShort>Battlemaster</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin battlemaster, a clique that revels in war and bloodshed as an end in of itself. {PAWN_pronoun} seeks to leave a triumphant legacy of victories, and will do nothing besides fight - and mentally prepare for the next fight.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ATM_MSeriesPaladin</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+        <skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+        </skillGains>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>ATM_MechAdulthoodPaladinSentinel</defName>
+		<title>Paladin Sentinel</title>
+		<titleShort>Sentinel</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin sentinel, a clique that sees paladins as natural guardians and protectors. {PAWN_pronoun} will fight to protect {PAWN_possessive} comrades, and sees no task as beneath {PAWN_objective}.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ATM_MSeriesPaladin</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>ATM_MechAdulthoodPaladinHospitaller</defName>
+		<title>Paladin Hospitaller</title>
+		<titleShort>Hospitaller</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin hospitaller, a clique that sees combat as inevitable but self-defeating. {PAWN_pronoun} seeks to end fights as swiftly as possible, to preserve well-being and to give mercy to opponents. Hospitallers adhere to a strict regime of tending and crafting.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ATM_MSeriesPaladin</li>
+            <li>ATR_Inorganic</li>
+		</spawnCategories>
+        <skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+        </skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Cooking</li>
+			<li>Cleaning</li>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+            <li>Mining</li>
+			<li>Constructing</li>
+		</workDisables>
+	</BackstoryDef>
+
+</Defs>

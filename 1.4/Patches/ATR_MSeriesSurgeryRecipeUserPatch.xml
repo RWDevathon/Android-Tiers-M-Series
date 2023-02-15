@@ -5,8 +5,9 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[@Name="ATR_surgeryMechanical"]/recipeUsers</xpath>
 		<value>
-            <li>ATR_Mark1Warrior</li>
-            <li>ATR_Mark2Bishop</li>
+            <li>ATM_Mark1Warrior</li>
+            <li>ATM_Mark2Bishop</li>
+            <li>ATM_Mark3Paladin</li>
 		</value>
 	</Operation>
 

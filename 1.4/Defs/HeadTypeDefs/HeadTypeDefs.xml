@@ -5,7 +5,7 @@
     <!-- None -->
 
     <HeadTypeDef>
-        <defName>ATR_Mark1_None</defName>
+        <defName>ATM_Mark1_None</defName>
         <graphicPath>Things/Pawns/Humanlikes/Mark1/head/None_Average_Normal</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
@@ -14,8 +14,17 @@
     <!-- None -->
 
     <HeadTypeDef>
-        <defName>ATR_Mark2_None</defName>
+        <defName>ATM_Mark2_None</defName>
         <graphicPath>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal</graphicPath>
+        <gender>None</gender>
+    </HeadTypeDef>
+
+    <!-- Mark 3 -->
+    <!-- None -->
+
+    <HeadTypeDef>
+        <defName>ATM_Mark3_None</defName>
+        <graphicPath>Things/Pawns/Humanlikes/Mark3/head/None_Average_Normal</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 

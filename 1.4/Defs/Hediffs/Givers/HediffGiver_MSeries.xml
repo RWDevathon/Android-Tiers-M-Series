@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffGiverSetDef>
+        <defName>ATM_MechanicalPaladin</defName>
+	    <hediffGivers>
+			<li Class="ATReforged.HediffGiver_PaladinActiveArmor">
+				<hediff>ATM_PaladinActiveArmor</hediff>
+			</li>
+	    </hediffGivers>
+	</HediffGiverSetDef>
+
+</Defs>

@@ -2,8 +2,8 @@
 <Defs>
 
     <BodyDef>
-        <defName>ATR_Mark1Body</defName>
-        <label>Android</label>
+        <defName>ATM_Mark1Body</defName>
+        <label>Warrior chassis</label>
         <corePart>
             <def>ATR_CoreIntegrityCage</def>
             <height>Middle</height>
@@ -44,7 +44,7 @@
                     <groups>
                         <li>Torso</li>
                     </groups>
-                    </li>
+                </li>
                 <li>
                     <def>ATR_MechaniteStorage</def>
                     <coverage>0.0005</coverage>

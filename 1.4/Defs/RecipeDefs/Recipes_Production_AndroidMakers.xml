@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef ParentName="ATR_AndroidMakerBase">
-        <defName>ATR_CreateMark1Warrior</defName>
+        <defName>ATM_CreateMark1Warrior</defName>
         <label>Create M1 Warrior</label>
         <description>Create an M1 Warrior from steel, plasteel and components.</description>
         <ingredients>
@@ -32,14 +32,14 @@
             </li>
         </ingredients>
         <products>
-            <ATR_M1WarriorGenerator>1</ATR_M1WarriorGenerator>
+            <ATM_M1WarriorGenerator>1</ATM_M1WarriorGenerator>
         </products>
         <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
         <workAmount>16500</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="ATR_AndroidMakerBase">
-        <defName>ATR_CreateMark2Bishop</defName>
+        <defName>ATM_CreateMark2Bishop</defName>
         <label>Create M2 Bishop</label>
         <description>Create an M2 Bishop from steel, plasteel and components.</description>
         <ingredients>
@@ -85,9 +85,78 @@
             </li>
         </ingredients>
         <products>
-            <ATR_M2BishopGenerator>1</ATR_M2BishopGenerator>
+            <ATM_M2BishopGenerator>1</ATM_M2BishopGenerator>
         </products>
         <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
+        <workAmount>16500</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ATR_AndroidMakerBase">
+        <defName>ATM_CreateMark3Paladin</defName>
+        <label>Create M3 Paladin</label>
+        <description>Create an M3 Paladin from steel, plasteel and components. The advanced reactive chassis requires hyperweave - something that had to be purchased or stolen for the original prototypes.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>140</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>180</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>180</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Hyperweave</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Gold</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>14</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+        </ingredients>
+        <products>
+            <ATM_M3PaladinGenerator>1</ATM_M3PaladinGenerator>
+        </products>
+        <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
         <workAmount>16500</workAmount>
     </RecipeDef>
 

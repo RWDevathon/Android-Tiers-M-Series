@@ -2,7 +2,7 @@
 <Defs>
 
     <BodyPartDef>
-        <defName>ATR_MechanicalLimb</defName>
+        <defName>ATM_MechanicalLimb</defName>
         <label>limb</label>
         <hitPoints>20</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -16,7 +16,7 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>ATR_MechanicalManipulator</defName>
+        <defName>ATM_MechanicalManipulator</defName>
         <label>manipulator</label>
         <hitPoints>10</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

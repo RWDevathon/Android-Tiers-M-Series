@@ -29,13 +29,13 @@
     <loadAfter>
         <li>Killathon.AndroidTiersReforged</li><!-- Dependency -->
     </loadAfter>
-    <description><![CDATA[  
+    <description><![CDATA[
 This dev project is an extended sub-mod of Android Tiers Reforged, bringing into the fold the implied but never introduced M-Series military androids as a coherent group. This project is intended to act as a showcase for how to create simple sub-mod mechanical humanlikes for android tiers reforged, and is a testing ground project for how well ATR is performing as a framework!
 
 The goal is to implement new mechanical humanlikes from M1 - M8, and will eventually be usable without the androids of its host mod as that will eventually be broken off into a mechanical humanlike Core mod and an android sub-mod.
 
 Art is the LAST priority, as I have the art work type disabled in my backstory.
 
-Version <color=#FFD800>0.1</color>.
+Version <color=#FFD800>0.2</color>.
     ]]></description>
 </ModMetaData>

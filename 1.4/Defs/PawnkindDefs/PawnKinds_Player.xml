@@ -2,26 +2,39 @@
 <Defs>
 
 	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
-		<defName>ATR_M1WarriorColony</defName>
+		<defName>ATM_M1WarriorColony</defName>
 		<label>M1 Newboot Warrior</label>
-		<race>ATR_Mark1Warrior</race>
-		<backstoryFiltersOverride>
+		<race>ATM_Mark1Warrior</race>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ATR_MSeriesBasic</li>
+					<li>ATM_MSeriesBasic</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
-		<defName>ATR_M2BishopColony</defName>
+		<defName>ATM_M2BishopColony</defName>
 		<label>M2 Newboot Bishop</label>
-		<race>ATR_Mark2Bishop</race>
-		<backstoryFiltersOverride>
+		<race>ATM_Mark2Bishop</race>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ATR_MSeriesBasic</li>
+					<li>ATM_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+		<defName>ATM_M3PaladinColony</defName>
+		<label>M3 Newboot Paladin</label>
+		<race>ATM_Mark3Paladin</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesPaladin</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>

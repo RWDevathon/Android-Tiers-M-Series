@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
+		<defName>ATM_Mark3Paladin</defName>
+		<label>M3 Paladin</label>
+		<description>The very first military variant idealized, blueprinted, and created by artifical intelligences alone, the mark three variant is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, M3's instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making M3's a warfighting champion. Specialized hardware vastly increases rate of fire. It is inherently able to connect to the SkyMind network, and its core comes pre-initialized - the unit is incapable of having its core removed or having a receiver core installed.\n\nThe earliest M3's - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic group ideology that often is likened to ancient chivalric customs. Duels, ritualistic combat, and mild disdain for non-combatants are common. While M3's exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud M3's prefer to use the nickname "Paladin." Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.</description>
+		<alienRace>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<apparelList>
+				</apparelList>
+			</raceRestriction>
+			<graphicPaths>
+                <body>Things/Pawns/Humanlikes/Mark3/body/</body>
+                <head>Things/Pawns/Humanlikes/Mark3/head/</head>
+                <skinShader>Cutout</skinShader>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headTypes>
+                        <li>ATM_Mark3_None</li>
+                    </headTypes>
+                    <bodyTypes>
+                        <li>Male</li>
+                    </bodyTypes>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Crimson-->
+										<weight>4</weight>
+										<min>RGBA(180, 60, 60, 255)</min>
+										<max>RGBA(120, 40, 40, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+        <!-- The UI Icon here is not normally used for humanlikes, but it is supplied here so that the mod settings
+             have a graphic available when trying to display the race in the considerations section. -->
+        <uiIconPath>Things/Pawns/Humanlikes/Mark3/ATM_MarkThreeExemplar</uiIconPath>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<MoveSpeed>2.50</MoveSpeed>
+			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.21</MentalBreakThreshold>
+			<GlobalLearningFactor>0.9</GlobalLearningFactor>
+			<WorkSpeedGlobal>0.45</WorkSpeedGlobal>
+			<SocialImpact>0.8</SocialImpact>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
+            <InjuryHealingFactor>4</InjuryHealingFactor>
+            <ATR_MaintenanceRetention>1.75</ATR_MaintenanceRetention>
+            <AimingDelayFactor>0.5</AimingDelayFactor>
+            <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
+            <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
+			<Mass>210.0</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right hand</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left hand</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>manipulator</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Stab</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.75</chanceFactor>
+			</li>
+			<li>
+				<label>bodyslam</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ATM_Mark3Body</body>
+			<baseHealthScale>3</baseHealthScale>
+			<baseBodySize>2.2</baseBodySize>
+			<hediffGiverSets>
+				<li>ATR_MechanicalStandard</li>
+				<li>ATM_MechanicalPaladin</li>
+			</hediffGiverSets>
+		</race>
+		<modExtensions>
+            <!-- All options presented here to demonstrate all usable nodes. -->
+			<li Class="ATReforged.ATR_MechTweaker">
+                <canBeAndroid>true</canBeAndroid> <!-- default: true; purpose: enables/disables this race ever being an android -->
+                <canBeDrone>false</canBeDrone> <!-- default: true; purpose: enables/disables this race ever being a drone -->
+                <needsMaintenance>true</needsMaintenance> <!-- default: true; purpose: enables/disables maintenance mechanic for this race -->
+                <droneSkillLevel>12</droneSkillLevel> <!-- default: 8; purpose: controls default skill levels in all skills -->
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories> <!-- default: false; purpose: controls whether drones use their pawn kind for the backstory or use explicitly provided backstories. -->
+                <droneChildhoodBackstoryDef></droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
+                <droneAdulthoodBackstoryDef></droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
+                <dronesCanHaveTraits>true</dronesCanHaveTraits> <!-- default: false; purpose: enables/disables this race having traits -->
+                <canInherentlyUseSkyMind>true</canInherentlyUseSkyMind> <!-- default: false; purpose: enables/disables this race being able to inherently use the SkyMind without an implant (does nothing if a drone) -->
+                <needsCoreAsAndroid>false</needsCoreAsAndroid> <!-- default: true; purpose: enables/disables the race getting cores on spawn or needing a core to operate (does nothing if a drone) -->
+			</li>
+		</modExtensions>
+		<butcherProducts>
+			<Plasteel>40</Plasteel>
+			<Uranium>10</Uranium>
+			<ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

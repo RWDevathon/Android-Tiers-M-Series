@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Added body parts -->
+
+    <HediffDef>
+        <defName>ATM_PaladinActiveArmor</defName>
+        <label>Reactive armor</label>
+        <description>The chassis of this unit actively reacts to damage it has taken, significantly reducing the amount of future damage it will take as a result. Sustained damage will greatly reduce maintenance efficiency as the chassis continually warps to protect surviving systems.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+        <defaultLabelColor>(0.4, 0.6, 0.4)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>Destroyed</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>Critical reaction</label>
+                <statOffsets>
+                    <ATR_MaintenanceRetention>-1.25</ATR_MaintenanceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.4</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>Intense reaction</label>
+                <statOffsets>
+                    <ATR_MaintenanceRetention>-1</ATR_MaintenanceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.55</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.65</minSeverity>
+                <label>Severe reaction</label>
+                <statOffsets>
+                    <ATR_MaintenanceRetention>-0.75</ATR_MaintenanceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.7</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <label>Mild reaction</label>
+                <statOffsets>
+                    <ATR_MaintenanceRetention>-0.5</ATR_MaintenanceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.85</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.95</minSeverity>
+                <label>No reaction</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

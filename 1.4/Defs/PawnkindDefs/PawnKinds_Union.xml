@@ -2,10 +2,10 @@
 <Defs>
 
     <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
-        <defName>ATR_M1WarriorUnion</defName>
+        <defName>ATM_M1WarriorUnion</defName>
 		<label>M1 Union Drone Soldier</label>
 		<labelPlural>Drone soldiers</labelPlural>
-        <race>ATR_Mark1Warrior</race>
+        <race>ATM_Mark1Warrior</race>
         <combatPower>100</combatPower>
         <invNutrition>3.25</invNutrition>
         <minGenerationAge>20</minGenerationAge>
@@ -33,10 +33,10 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
-        <defName>ATR_M2BishopUnion</defName>
+        <defName>ATM_M2BishopUnion</defName>
 		<label>M2 Union Drone Soldier</label>
 		<labelPlural>Drone soldiers</labelPlural>
-        <race>ATR_Mark2Bishop</race>
+        <race>ATM_Mark2Bishop</race>
         <combatPower>140</combatPower>
         <invNutrition>3.25</invNutrition>
         <minGenerationAge>20</minGenerationAge>
@@ -47,9 +47,13 @@
         <techHediffsChance>0.12</techHediffsChance>
         <weaponMoney>400~700</weaponMoney>
         <weaponTags>
-            <li>Gun</li>
+            <li>IndustrialGun</li>
+            <li>IndustrialGunAdvanced</li>
         </weaponTags>
         <techHediffsMoney>100~800</techHediffsMoney>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
         <inventoryOptions>
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
@@ -61,6 +65,60 @@
         </inventoryOptions>
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>17~26</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
+        <defName>ATM_M3PaladinUnion</defName>
+		<label>M3 Union Paladin</label>
+		<labelPlural>Paladins</labelPlural>
+        <race>ATM_Mark3Paladin</race>
+        <backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesPaladin</li>
+				</categories>
+			</li>
+        </backstoryFiltersOverride>
+        <combatPower>200</combatPower>
+        <invNutrition>3.25</invNutrition>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <aiAvoidCover>false</aiAvoidCover>
+        <acceptArrestChanceFactor>0.1</acceptArrestChanceFactor>
+        <techHediffsChance>0.48</techHediffsChance>
+        <weaponMoney>800~1500</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>SniperRifle</li>
+            <li>SpacerGun</li>
+            <li>HeavyGun</li>
+        </weaponTags>
+        <techHediffsMoney>600~1600</techHediffsMoney>
+        <techHediffsMaxAmount>5</techHediffsMaxAmount>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <inventoryOptions>
+            <skipChance>0.95</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <countRange>3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>17~26</initialResistanceRange>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~18</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>10~18</range>
+            </li>
+        </skills>
     </PawnKindDef>
 
 </Defs>

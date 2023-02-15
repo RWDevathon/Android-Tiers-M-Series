@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
-		<defName>ATR_Mark2Bishop</defName>
+		<defName>ATM_Mark2Bishop</defName>
 		<label>M2 Bishop</label>
 		<description>Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't be engaged in full capacity and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
 		<alienRace>
@@ -19,7 +19,7 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headTypes>
-                        <li>ATR_Mark2_None</li>
+                        <li>ATM_Mark2_None</li>
                     </headTypes>
                     <bodyTypes>
                         <li>Male</li>
@@ -55,15 +55,15 @@
         <uiIconPath>Things/Pawns/Humanlikes/Mark2/ATM_MarkTwoExemplar</uiIconPath>
 		<statBases>
 			<MarketValue>1300</MarketValue>
-			<MoveSpeed>5.50</MoveSpeed>
+			<MoveSpeed>4.60</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 			<MentalBreakThreshold>0.14</MentalBreakThreshold>
 			<GlobalLearningFactor>0.3</GlobalLearningFactor>
 			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
 			<SocialImpact>0.05</SocialImpact>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <IncomingDamageFactor>0.9</IncomingDamageFactor>
             <ATR_MaintenanceRetention>1.25</ATR_MaintenanceRetention>
 			<Mass>70.0</Mass>
@@ -74,14 +74,14 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>6</power>
 				<cooldownTime>0.75</cooldownTime>
 				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>22</amount>
+							<amount>10</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -91,14 +91,14 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>9</power>
+				<power>6</power>
 				<cooldownTime>1</cooldownTime>
 				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>22</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -109,15 +109,15 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>1.2</cooldownTime>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 		<race>
-			<body>ATR_Mark2Body</body>
+			<body>ATM_Mark2Body</body>
 			<baseHealthScale>1.3</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 		</race>
@@ -129,8 +129,8 @@
                 <needsMaintenance>true</needsMaintenance> <!-- default: true; purpose: enables/disables maintenance mechanic for this race -->
                 <droneSkillLevel>10</droneSkillLevel> <!-- default: 8; purpose: controls default skill levels in all skills -->
                 <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories> <!-- default: false; purpose: controls whether drones use their pawn kind for the backstory or use explicitly provided backstories. -->
-                <droneChildhoodBackstoryDef>ATR_MechChildhoodMilitaryDrone</droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
-                <droneAdulthoodBackstoryDef>ATR_MechAdulthoodMilitaryDrone</droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
+                <droneChildhoodBackstoryDef>ATM_MechChildhoodMilitaryDrone</droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
+                <droneAdulthoodBackstoryDef>ATM_MechAdulthoodMilitaryDrone</droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
                 <dronesCanHaveTraits>false</dronesCanHaveTraits> <!-- default: false; purpose: enables/disables this race having traits -->
                 <canInherentlyUseSkyMind>false</canInherentlyUseSkyMind> <!-- default: false; purpose: enables/disables this race being able to inherently use the SkyMind without an implant (does nothing if a drone) -->
                 <needsCoreAsAndroid>true</needsCoreAsAndroid> <!-- default: true; purpose: enables/disables the race getting cores on spawn or needing a core to operate (does nothing if a drone) -->
