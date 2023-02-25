@@ -177,6 +177,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndroidTiersMSeries.cs" />
     <Compile Include="Comps\AbilityComps\CompAbilityEffect_ApplyHediffsToTargetAndUser.cs" />
     <Compile Include="Comps\AbilityComps\CompProperties\CompProperties_AbilityApplyHediffsToTargetAndUser.cs" />
     <Compile Include="DefOfs\ATM_PawnKindDefOf.cs" />
