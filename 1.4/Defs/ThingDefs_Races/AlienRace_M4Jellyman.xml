@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
+		<defName>ATM_Mark4Jellyman</defName>
+		<label>M4 Jellyman</label>
+		<description>Mark four units were an accident, originally borne of an ultratech society's misadventure with archotech research. This semi-gelatinous mass of mechanites takes human form, and has a plethora of odd properties. Capable of wearing human apparel, devoid of coolant and distinct limbs, uniquely psychically gifted with a very human-like brain that can absorb archotech devices like mechlinks and neuroformers, possessed of a body that reacts to harm like paladins do, immune to overheating and freezing, even able to eject a mass of mechanites to incapacitate a foe in close combat at a cost to health, these are powerful beings indeed. Their creation requires a level of compression and energy only achievable under the weight of entire stars - but raving mad prophets claim the M4 is a hierophant, and can be "naturally born" by the true gift of the archotechs.\n\nDespite everything, as a group, they behave like and have the desires of normal individuals. Others refer to the M4 as a "Jellyman" or "Gray goo," names of which the individuals do not seem to mind as long as they can participate in society on equal terms.</description>
+		<alienRace>
+			<graphicPaths>
+                <body>Things/Pawns/Humanlikes/Mark4/body/</body>
+                <head>Things/Pawns/Humanlikes/Mark4/head/</head>
+                <skinShader>Cutout</skinShader>
+            </graphicPaths>
+            <generalSettings>
+				<immuneToAge>true</immuneToAge>
+                <alienPartGenerator>
+					<headBodyPartDef>ATM_MechaniteHead</headBodyPartDef>
+					<headTypes>
+                        <li>ATM_Mark4_None</li>
+                    </headTypes>
+                    <bodyTypes>
+                        <li>Male</li>
+                    </bodyTypes>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Gray-->
+										<weight>4</weight>
+										<min>RGBA(127, 127, 127, 255)</min>
+										<max>RGBA(127, 127, 127, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+        <!-- The UI Icon here is not normally used for humanlikes, but it is supplied here so that the mod settings
+             have a graphic available when trying to display the race in the considerations section. -->
+        <uiIconPath>Things/Pawns/Humanlikes/Mark4/ATM_MarkFourExemplar</uiIconPath>
+		<statBases>
+			<MarketValue>4000</MarketValue>
+			<MoveSpeed>6.50</MoveSpeed>
+			<PsychicSensitivity>2</PsychicSensitivity>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.42</MentalBreakThreshold>
+			<GlobalLearningFactor>2</GlobalLearningFactor>
+			<WorkSpeedGlobal>2</WorkSpeedGlobal>
+			<SocialImpact>2</SocialImpact>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+            <ATR_MaintenanceRetention>4</ATR_MaintenanceRetention>
+			<Mass>30.0</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>bodyslam</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>ATM_Mark4Body</body>
+			<makesFootprints>false</makesFootprints>
+			<bloodDef>ATM_MechaniteBlood</bloodDef>
+			<baseHealthScale>5</baseHealthScale>
+			<baseHungerRate>0.4</baseHungerRate>
+			<hediffGiverSets>
+				<li>ATM_MechanicalPaladin</li>
+			</hediffGiverSets>
+		</race>
+		<modExtensions>
+            <!-- All options presented here to demonstrate all usable nodes. -->
+			<li Class="ATReforged.ATR_MechTweaker">
+                <canBeAndroid>true</canBeAndroid> <!-- default: true; purpose: enables/disables this race ever being an android -->
+                <canBeDrone>false</canBeDrone> <!-- default: true; purpose: enables/disables this race ever being a drone -->
+                <needsMaintenance>false</needsMaintenance> <!-- default: true; purpose: enables/disables maintenance mechanic for this race -->
+                <droneSkillLevel>18</droneSkillLevel> <!-- default: 8; purpose: controls default skill levels in all skills -->
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories> <!-- default: false; purpose: controls whether drones use their pawn kind for the backstory or use explicitly provided backstories. -->
+                <droneChildhoodBackstoryDef></droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
+                <droneAdulthoodBackstoryDef></droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
+                <dronesCanHaveTraits>true</dronesCanHaveTraits> <!-- default: false; purpose: enables/disables this race having traits -->
+                <canInherentlyUseSkyMind>false</canInherentlyUseSkyMind> <!-- default: false; purpose: enables/disables this race being able to inherently use the SkyMind without an implant (does nothing if a drone) -->
+                <needsCoreAsAndroid>false</needsCoreAsAndroid> <!-- default: true; purpose: enables/disables the race getting cores on spawn or needing a core to operate (does nothing if a drone) -->
+			</li>
+		</modExtensions>
+		<butcherProducts>
+            <Hyperweave>80</Hyperweave>
+			<Neutroamine>140</Neutroamine>
+			<AIPersonaCore>1</AIPersonaCore>
+			<ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

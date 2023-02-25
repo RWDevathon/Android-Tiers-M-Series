@@ -5,7 +5,7 @@
         <defName>ATM_Mark1Body</defName>
         <label>Warrior chassis</label>
         <corePart>
-            <def>ATR_CoreIntegrityCage</def>
+            <def>ATM_CoreIntegrityCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>

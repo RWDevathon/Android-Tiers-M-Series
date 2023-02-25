@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseFilth">
+		<defName>ATM_MechaniteBlood</defName>
+		<label>mechanite remnants</label>
+		<statBases>
+            <Cleanliness>-2</Cleanliness>
+            <Beauty>-5</Beauty>
+		</statBases>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>200</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+		</filth>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(127, 127, 127, 150)</color>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

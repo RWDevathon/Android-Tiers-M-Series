@@ -40,4 +40,20 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+		<defName>ATM_M4JellymanColony</defName>
+		<label>M4 Jellyman</label>
+		<race>ATM_Mark4Jellyman</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesJellyman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+        <abilities>
+            <li>ATM_EjectMechanites</li>
+        </abilities>
+	</PawnKindDef>
+
 </Defs>

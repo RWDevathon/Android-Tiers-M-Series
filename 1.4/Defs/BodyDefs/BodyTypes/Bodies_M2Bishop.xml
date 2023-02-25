@@ -5,7 +5,7 @@
         <defName>ATM_Mark2Body</defName>
         <label>Bishop chassis</label>
         <corePart>
-            <def>ATR_CoreIntegrityCage</def>
+            <def>ATM_CoreIntegrityCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>

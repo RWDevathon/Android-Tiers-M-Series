@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Added body parts -->
-
     <HediffDef>
         <defName>ATM_PaladinActiveArmor</defName>
         <label>Reactive armor</label>
@@ -61,6 +59,116 @@
                 <minSeverity>0.95</minSeverity>
                 <label>No reaction</label>
                 <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>ATM_RepleneshingMechanites</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>Mechanites replenishing</label>
+        <description>Many mechanites that form the mass of this pawn's body have been violently ejected. Until they are replaced, the unit will be vulnerable and unable to operate fully.</description>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.25</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>Full recovery</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>Minor loss</label>
+            </li>
+            <li>
+                <minSeverity>0.3</minSeverity>
+                <label>Major loss</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.95</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.05</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.6</minSeverity>
+                <label>Severe loss</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.1</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.9</minSeverity>
+                <label>Critical loss</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.25</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>ATM_RestrictiveMechanites</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>Restrictive mechanites</label>
+        <description>Mechanites coat this pawn's joints, severely impairing movement and manipulation. Cut off from the original host, the mechanites will slowly decay over the span of a day.</description>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>Full recovery</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>Impaired</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>Immobilized</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                </capMods>
             </li>
         </stages>
     </HediffDef>

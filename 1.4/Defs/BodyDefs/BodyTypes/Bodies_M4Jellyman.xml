@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyDef>
+        <defName>ATM_Mark4Body</defName>
+        <label>Jellyman mass</label>
+        <corePart>
+            <def>ATM_CoreIntegrityCage</def>
+            <height>Middle</height>
+            <depth>Outside</depth>
+            <groups>
+                <li>Torso</li>
+            </groups>
+            <parts>
+                <li>
+                    <def>ATM_MechaniteCore</def>
+                    <coverage>0.0003</coverage>
+                    <depth>Inside</depth>
+                    <groups>
+                        <li>Torso</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>ATR_MechanicalVisualSensor</def>
+                    <customLabel>mechanite visual sense</customLabel>
+                    <coverage>0.0002</coverage>
+                    <groups>
+                        <li>Torso</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>Brain</def>
+                    <coverage>0.0003</coverage>
+                    <depth>Inside</depth>
+                    <groups>
+                        <li>Torso</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>ATM_MechaniteTorso</def>
+                    <coverage>0.999</coverage>
+                    <depth>Outside</depth>
+                    <groups>
+                        <li>Torso</li>
+                    </groups>
+                    <parts>
+                        <li>
+                            <def>ATM_MechaniteHead</def>
+                            <coverage>0.12</coverage>
+                            <groups>
+                                <li>UpperHead</li>
+                                <li>FullHead</li>
+                                <li>HeadAttackTool</li>
+                                <li>Neck</li>
+                            </groups>
+                        </li>
+                        <li>
+                            <def>ATR_MechanicalWaist</def>
+                            <coverage>0</coverage>
+                            <height>Bottom</height>
+                            <groups>
+                                <li>Waist</li>
+                            </groups>
+                        </li>
+                    </parts>
+                </li>
+            </parts>
+        </corePart>
+    </BodyDef>
+
+</Defs>

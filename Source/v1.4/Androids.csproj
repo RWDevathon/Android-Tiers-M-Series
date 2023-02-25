@@ -177,6 +177,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comps\AbilityComps\CompAbilityEffect_ApplyHediffsToTargetAndUser.cs" />
+    <Compile Include="Comps\AbilityComps\CompProperties\CompProperties_AbilityApplyHediffsToTargetAndUser.cs" />
+    <Compile Include="DefOfs\ATM_PawnKindDefOf.cs" />
+    <Compile Include="Harmony\Hediff_Fractal_Patch.cs" />
     <Compile Include="Hediffs\HediffGiver_PaladinActiveArmor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

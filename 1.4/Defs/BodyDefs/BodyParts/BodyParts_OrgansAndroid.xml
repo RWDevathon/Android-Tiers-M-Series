@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartDef>
+        <defName>ATM_MechaniteCore</defName>
+        <label>Mechanite core</label>
+        <hitPoints>30</hitPoints>
+        <permanentInjuryChanceFactor>0.01</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <bleedRate>0</bleedRate>
+        <tags>
+            <li>BloodPumpingSource</li>
+            <li>BreathingSource</li>
+            <li>MetabolismSource</li>
+            <li>BloodFiltrationSource</li>
+            <li>EatingSource</li>
+            <li>TalkingSource</li>
+            <li>HearingSource</li>
+        </tags>
+        <canSuggestAmputation>false</canSuggestAmputation>
+    </BodyPartDef>
+
+</Defs>

@@ -10,7 +10,6 @@
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>ATM_MSeriesBasic</li>
-            <li>ATR_Inorganic</li>
 		</spawnCategories>
 		<workDisables>
 			<li>Caring</li>
@@ -37,7 +36,6 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>ATM_MSeriesBasic</li>
-            <li>ATR_Inorganic</li>
 		</spawnCategories>
 		<workDisables>
 			<li>Caring</li>
