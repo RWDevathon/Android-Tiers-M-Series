@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ATR_GeneratorBase">
+    <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M1WarriorGenerator</defName>
         <label>M1 Warrior</label>
         <description>An uninitialized Mark 1 Warrior. Mark one warrior units, freed from the constraint of appearing distinctly humanlike, are a class above Tier one Androids in survivability, strength, and power efficiency. These are units crafted for war and war alone, and they are very good at it given their low cost.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat."</description>
         <graphicData>
-            <texPath>Things/Pawns/Humanlikes/Mark1/head/None_Average_Normal_south</texPath>
+            <texPath>Things/Pawns/Humanlikes/Mark1/ATM_MarkOneExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>90</Steel>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>14</ComponentIndustrial>
+        </costList>
         <comps>
             <li Class="ATReforged.CompProperties_GenericSpawner">
                 <pawnKind>ATM_M1WarriorColony</pawnKind>
@@ -16,14 +24,25 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ATR_GeneratorBase">
+    <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M2BishopGenerator</defName>
         <label>M2 Bishop</label>
         <description>An uninitialized Mark 2 Bishop. Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With four legs, four arms, and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't solely suffice and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line unrelentingly.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
         <graphicData>
-            <texPath>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal_south</texPath>
+            <texPath>Things/Pawns/Humanlikes/Mark2/ATM_MarkTwoExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <recipeMaker>
+            <workAmount>22500</workAmount>
+            <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>80</Steel>
+            <Plasteel>80</Plasteel>
+            <Gold>1</Gold>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
         <comps>
             <li Class="ATReforged.CompProperties_GenericSpawner">
                 <pawnKind>ATM_M2BishopColony</pawnKind>
@@ -31,14 +50,27 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ATR_GeneratorBase">
+    <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M3PaladinGenerator</defName>
         <label>M3 Paladin</label>
         <description>An uninitialized Mark 3 Paladin. The very first military variant idealized, blueprinted, and created by artifical intelligences alone, the mark three variant is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, M3's instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making M3's a warfighting champion. It is inherently able to connect to the SkyMind network, and its core comes pre-initialized - the unit is incapable of having its core removed or having a receiver core installed.\n\nThe earliest M3's - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic group ideology that often is likened to ancient chivalric customs. Duels, ritualistic combat, and mild disdain for non-combatants are common. While M3's exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud M3's prefer to use the nickname "Paladin." Few are brave enough to challenge their choice.</description>
         <graphicData>
-            <texPath>Things/Pawns/Humanlikes/Mark3/head/None_Average_Normal_south</texPath>
+            <texPath>Things/Pawns/Humanlikes/Mark3/ATM_MarkThreeExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <recipeMaker>
+            <workAmount>28500</workAmount>
+            <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>140</Steel>
+            <Plasteel>180</Plasteel>
+            <Uranium>180</Uranium>
+            <Hyperweave>20</Hyperweave>
+            <Gold>3</Gold>
+            <ComponentIndustrial>14</ComponentIndustrial>
+            <ComponentSpacer>6</ComponentSpacer>
+        </costList>
         <comps>
             <li Class="ATReforged.CompProperties_GenericSpawner">
                 <pawnKind>ATM_M3PaladinColony</pawnKind>

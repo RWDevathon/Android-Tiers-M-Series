@@ -7,8 +7,22 @@
 		<description>Mark four units were an accident, originally borne of an ultratech society's misadventure with archotech research. This semi-gelatinous mass of mechanites takes human form, and has a plethora of odd properties. Capable of wearing human apparel, devoid of coolant and distinct limbs, uniquely psychically gifted with a very human-like brain that can absorb archotech devices like mechlinks and neuroformers, possessed of a body that reacts to harm like paladins do, immune to overheating and freezing, even able to eject a mass of mechanites to incapacitate a foe in close combat at a cost to health, these are powerful beings indeed. Their creation requires a level of compression and energy only achievable under the weight of entire stars - but raving mad prophets claim the M4 is a hierophant, and can be "naturally born" by the true gift of the archotechs.\n\nDespite everything, as a group, they behave like and have the desires of normal individuals. Others refer to the M4 as a "Jellyman" or "Gray goo," names of which the individuals do not seem to mind as long as they can participate in society on equal terms.</description>
 		<alienRace>
 			<graphicPaths>
-                <body>Things/Pawns/Humanlikes/Mark4/body/</body>
-                <head>Things/Pawns/Humanlikes/Mark4/head/</head>
+                <body>
+                    <path>Things/Pawns/Humanlikes/Mark4/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Mark4/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Mark4/body/Naked_Female</Female>
+                        <None>Things/Pawns/Humanlikes/Mark4/body/Naked_None</None>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Mark4/head/None_Average_Normal</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Mark4/head/Male_Average_Normal</Male>
+                        <Female>Things/Pawns/Humanlikes/Mark4/head/Female_Average_Normal</Female>
+                        <None>Things/Pawns/Humanlikes/Mark4/head/None_Average_Normal</None>
+                    </genderGraphics>
+                </head>
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
             <generalSettings>

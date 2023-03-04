@@ -12,8 +12,22 @@
 				</apparelList>
 			</raceRestriction>
 			<graphicPaths>
-                <body>Things/Pawns/Humanlikes/Mark3/body/</body>
-                <head>Things/Pawns/Humanlikes/Mark3/head/</head>
+                <body>
+                    <path>Things/Pawns/Humanlikes/Mark3/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Mark3/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Mark3/body/Naked_Female</Female>
+                        <None>Things/Pawns/Humanlikes/Mark3/body/Naked_None</None>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Mark3/head/None_Average_Normal</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Mark3/head/Male_Average_Normal</Male>
+                        <Female>Things/Pawns/Humanlikes/Mark3/head/Female_Average_Normal</Female>
+                        <None>Things/Pawns/Humanlikes/Mark3/head/None_Average_Normal</None>
+                    </genderGraphics>
+                </head>
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
             <generalSettings>
