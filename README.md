@@ -13,11 +13,11 @@ Android Tiers itself is a mod that intends to add mechanical colonists, animals,
 * The M2 Bishop Unit, a slender, towering drone with 6 limbs that can interchangeably be arms or legs.
 * The M3 Paladin Unit, a massive android with 4 leg-arms and 2 arms, that takes significantly less damage the more damage it has taken.
 * The M4 Jellyman, an enigmatic mechanite blob with android intelligence of many powers and very odd properties, which can only be acquired by strange means.
+* The M5 Titan, a massive Ultratech war machine with drone intelligence that is a fine display of human capability but lack of ingenuity.
 * Alters some ATR behaviors with new mechanics and features.
 * All M-Series units except the M4 can not wear apparel, and have high stats and an exceedingly resilient body layout. Killing an M-Series unit (ignoring RimWorld's "health threshold death" and random-raider death-on-downed chance) outright is nearly impossible, as they'll go down long before death.
 
 ## Objectives Remaining
-* Implementation of M5 - M8, with interesting mechanics and differences, all focused around utility in combat and survivability.
 * DLC specific abilities or content.
 * Other stuff.
 * Actual proper graphics.

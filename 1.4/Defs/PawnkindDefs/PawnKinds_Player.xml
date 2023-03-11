@@ -56,4 +56,28 @@
         </abilities>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+		<defName>ATM_M5TitanColony</defName>
+		<label>M5 Titan</label>
+		<race>ATM_Mark5Titan</race>
+		<combatPower>1000</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>9999</ecoSystemWeight>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<aiAvoidCover>true</aiAvoidCover>
+		<weaponMoney>
+			<min>9999</min>
+			<max>9999</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>ATM_MechWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
 </Defs>

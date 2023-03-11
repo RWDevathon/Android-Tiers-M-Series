@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- M-Series Base -->
+	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
+		<defName>ATM_Mark5Titan</defName>
+		<label>M5 Titan</label>
+		<description>The Mark five is the product of ingenious engineering and a startling lack of actual creativity. Necessitating an orbital production facility with instruments of picoscoping precision and an interstellar empire's worth of logistical supply to manufacture, the Mark five is a testament to human achievement. It is, however, still generally considered a collosal failure of a design. Inexplicably, designers gave it a humanlike form and built it in a way that made it wholly incompatible with pre-existing technology and tactics, even going so far as to somehow give it less actual intelligence than a mark two.\n\nHow such a machine ended up here is not understood, but it is safe to say this likely one of the single most dangerous entities on the planet.</description>
+        <alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+					<bodyTypes>
+						<li>Male</li>
+					</bodyTypes>
+					<headTypes>
+                        <li>ATM_Mark5_None</li>
+                    </headTypes>
+					<borderScale>2</borderScale>
+					<atlasScale>2</atlasScale>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.36,0.36,0.36,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.3,0.3,0.3,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.25,0.25,0.25,1)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.36,0.36,0.36,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.3,0.3,0.3,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.25,0.25,0.25,1)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+					<customDrawSize>(2.7)</customDrawSize>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+                <body>Things/Pawns/Humanlikes/Mark5/body/</body>
+                <head>Things/Pawns/Humanlikes/Mark5/head/</head>
+                <skinShader>Cutout</skinShader>
+			</graphicPaths>
+			<raceRestriction>
+				<apparelList>
+				</apparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<weaponList>
+					<li>ATM_RotaryAutocannon</li>
+					<li>ATM_RotaryShrapnelcannon</li>
+					<li>ATM_HeadhunterCannon</li>
+					<li>ATM_MechPoleaxe</li>
+				</weaponList>
+				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+			</raceRestriction>
+			<thoughtSettings>
+				<cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+			</thoughtSettings>
+        </alienRace>
+        <uiIconPath>Things/Pawns/Humanlikes/Mark5/body/Naked_None_south</uiIconPath>
+		<statBases>
+			<MarketValue>18000</MarketValue>
+			<MoveSpeed>5.20</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.00</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.00</ArmorRating_Heat>
+            <InjuryHealingFactor>0.2</InjuryHealingFactor>
+            <IncomingDamageFactor>0.5</IncomingDamageFactor>
+			<GlobalLearningFactor>0.4</GlobalLearningFactor>
+            <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
+            <EMPResistance MayRequire="Ludeon.RimWorld.Biotech">0.9</EMPResistance>
+            <ATR_MaintenanceRetention>0.8</ATR_MaintenanceRetention>
+			<Mass>450</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+                    <li>Demolish</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2.8</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+                    <li>Demolish</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2.8</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+        <race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<lifeExpectancy>1000</lifeExpectancy>
+			<body>ATR_AndroidBody</body>
+			<baseHungerRate>4</baseHungerRate>
+			<baseHealthScale>7.5</baseHealthScale>
+			<baseBodySize>5</baseBodySize>
+			<needsRest>false</needsRest>
+			<ageGenerationCurve>
+				<points>
+                    <li>(0,0)</li>
+					<li>(100,0)</li>
+					<li>(200,2)</li>
+					<li>(800,4)</li>
+					<li>(2000,0)</li>
+				</points>
+			</ageGenerationCurve>
+        </race>
+		<modExtensions>
+			<li Class="ATReforged.ATR_MechTweaker">
+                <canBeAndroid>false</canBeAndroid> <!-- default: true; purpose: enables/disables this race ever being an android -->
+                <canBeDrone>true</canBeDrone> <!-- default: true; purpose: enables/disables this race ever being a drone -->
+                <needsMaintenance>true</needsMaintenance> <!-- default: true; purpose: enables/disables maintenance mechanic for this race -->
+                <droneSkillLevel>15</droneSkillLevel> <!-- default: 8; purpose: controls default skill levels in all skills -->
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories> <!-- default: false; purpose: controls whether drones use their pawn kind for the backstory or use explicitly provided backstories. -->
+                <droneChildhoodBackstoryDef>ATM_MechChildhoodMilitaryDrone</droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
+                <droneAdulthoodBackstoryDef>ATM_MechAdulthoodMilitaryDrone</droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
+                <dronesCanHaveTraits>false</dronesCanHaveTraits> <!-- default: false; purpose: enables/disables this race having traits -->
+                <canInherentlyUseSkyMind>false</canInherentlyUseSkyMind> <!-- default: false; purpose: enables/disables this race being able to inherently use the SkyMind without an implant (does nothing if a drone) -->
+                <needsCoreAsAndroid>true</needsCoreAsAndroid> <!-- default: true; purpose: enables/disables the race getting cores on spawn or needing a core to operate (does nothing if a drone) -->
+			</li>
+		</modExtensions>
+		<butcherProducts>
+			<Plasteel>160</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+            <ComponentSpacer>10</ComponentSpacer>
+            <Uranium>30</Uranium>
+			<Gold>6</Gold>
+		</butcherProducts>
+        <recipes>
+            <li>ATR_ShutdownMechanical</li>
+            <li>ATR_ReprogramDrone</li>
+        </recipes>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

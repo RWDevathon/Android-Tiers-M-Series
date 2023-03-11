@@ -181,9 +181,13 @@
     <Compile Include="Comps\AbilityComps\CompAbilityEffect_ApplyHediffsToTargetAndUser.cs" />
     <Compile Include="Comps\AbilityComps\CompProperties\CompProperties_AbilityApplyHediffsToTargetAndUser.cs" />
     <Compile Include="DefOfs\ATM_PawnKindDefOf.cs" />
+    <Compile Include="DefOfs\ATM_ThingDefOf.cs" />
     <Compile Include="Harmony\Hediff_Fractal_Patch.cs" />
     <Compile Include="Hediffs\HediffGiver_PaladinActiveArmor.cs" />
+    <Compile Include="MarkFiveCaller\MechFallClass.cs" />
+    <Compile Include="MarkFiveCaller\MechFallMote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MarkFiveCaller\Verb_MechFall.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

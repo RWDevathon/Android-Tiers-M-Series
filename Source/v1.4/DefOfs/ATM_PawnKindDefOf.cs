@@ -12,5 +12,7 @@ namespace ATReforged
         }
 
         public static PawnKindDef ATM_M4JellymanColony;
+
+        public static PawnKindDef ATM_M5TitanColony;
     }
 }

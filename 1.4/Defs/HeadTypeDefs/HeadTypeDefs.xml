@@ -37,4 +37,14 @@
         <gender>None</gender>
     </HeadTypeDef>
 
+
+    <!-- Mark 5 -->
+    <!-- None -->
+
+    <HeadTypeDef>
+        <defName>ATM_Mark5_None</defName>
+        <graphicPath>Things/Pawns/Humanlikes/Mark5/head/None_Average_Normal</graphicPath>
+        <gender>None</gender>
+    </HeadTypeDef>
+
 </Defs>
