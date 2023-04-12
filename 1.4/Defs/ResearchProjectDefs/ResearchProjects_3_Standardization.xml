@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ATM_M2Bishops</defName>
+		<label>M2 Bishops</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ATM_M1Warriors</li>
+            <li>ATR_MechanicalStandardization</li>
+            <li>Fabrication</li>
+        </prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

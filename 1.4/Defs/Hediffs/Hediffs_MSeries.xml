@@ -19,7 +19,7 @@
                 <minSeverity>0.05</minSeverity>
                 <label>Critical reaction</label>
                 <statOffsets>
-                    <ATR_MaintenanceRetention>-1.25</ATR_MaintenanceRetention>
+                    <MHC_MaintenanceRetention>-1.25</MHC_MaintenanceRetention>
                 </statOffsets>
                 <statFactors>
                     <IncomingDamageFactor>0.4</IncomingDamageFactor>
@@ -29,7 +29,7 @@
                 <minSeverity>0.5</minSeverity>
                 <label>Intense reaction</label>
                 <statOffsets>
-                    <ATR_MaintenanceRetention>-1</ATR_MaintenanceRetention>
+                    <MHC_MaintenanceRetention>-1</MHC_MaintenanceRetention>
                 </statOffsets>
                 <statFactors>
                     <IncomingDamageFactor>0.55</IncomingDamageFactor>
@@ -39,7 +39,7 @@
                 <minSeverity>0.65</minSeverity>
                 <label>Severe reaction</label>
                 <statOffsets>
-                    <ATR_MaintenanceRetention>-0.75</ATR_MaintenanceRetention>
+                    <MHC_MaintenanceRetention>-0.75</MHC_MaintenanceRetention>
                 </statOffsets>
                 <statFactors>
                     <IncomingDamageFactor>0.7</IncomingDamageFactor>
@@ -49,7 +49,7 @@
                 <minSeverity>0.8</minSeverity>
                 <label>Mild reaction</label>
                 <statOffsets>
-                    <ATR_MaintenanceRetention>-0.5</ATR_MaintenanceRetention>
+                    <MHC_MaintenanceRetention>-0.5</MHC_MaintenanceRetention>
                 </statOffsets>
                 <statFactors>
                     <IncomingDamageFactor>0.85</IncomingDamageFactor>

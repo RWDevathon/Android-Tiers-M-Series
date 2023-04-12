@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Android Tiers M-Series</name>
+	<name>MH: Military Tiers</name>
     <author>Killathon</author>
     <supportedVersions>
 		<li>1.4</li>
@@ -19,23 +19,30 @@
             <downloadUrl>https://github.com/RimWorld-CCL-Reborn/AlienRaces</downloadUrl>
         </li>
         <li>
-            <packageId>Killathon.AndroidTiersReforged</packageId>
-            <displayName>Android Tiers Reforged</displayName>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/2917948202</steamWorkshopUrl>
-            <downloadUrl>https://github.com/RWDevathon/Android-Tiers-Reforged.git</downloadUrl>
+            <packageId>Killathon.MechanicalHumanlikesCore</packageId>
+            <displayName>Mechanical Humanlikes Core</displayName>
+            <steamWorkshopUrl></steamWorkshopUrl>
+            <downloadUrl>https://github.com/RWDevathon/Dev_Mechanical-Humanlikes-Core</downloadUrl>
+        </li>
+        <li>
+            <packageId>Killathon.MechHumanlikes.AndroidTiersCore</packageId>
+            <displayName>MH: Android Tiers Core</displayName>
+            <steamWorkshopUrl></steamWorkshopUrl>
+            <downloadUrl>https://github.com/RWDevathon/Android-Tiers-Reforged-Core</downloadUrl>
         </li>
     </modDependencies>
-    <packageId>Killathon.AndroidTiersMSeries</packageId>
+    <packageId>Killathon.MechHumanlikes.MilitaryTiers</packageId>
     <loadAfter>
-        <li>Killathon.AndroidTiersReforged</li><!-- Dependency -->
+        <li>Killathon.MechanicalHumanlikesCore</li><!-- Dependency -->
+        <li>Killathon.MechHumanlikes.AndroidTiersCore</li><!-- Dependency -->
     </loadAfter>
     <description><![CDATA[
-This dev project is an extended sub-mod of Android Tiers Reforged, bringing into the fold the implied but never introduced M-Series military androids as a coherent group. This project is intended to act as a showcase for how to create simple sub-mod mechanical humanlikes for android tiers reforged, and is a testing ground project for how well ATR is performing as a framework!
+This dev project is an extended sub-mod of Android Tiers Reforged, bringing into the fold the implied but never introduced M-Series military androids as a coherent group. This project is intended to act as a showcase for how to create simple sub-mod mechanical humanlikes for android tiers reforged!
 
-M1 - M5 pawns and related mechanics, and will eventually be usable without the androids of its host mod as that will eventually be broken off into a mechanical humanlike Core mod and an android sub-mod.
+M1 - M5 pawns and related mechanics.
 
 Art is the LAST priority, as I have the art work type disabled in my backstory.
 
-Version <color=#FFD800>0.4.0</color>.
+Version <color=#FFD800>1.0.0</color>.
     ]]></description>
 </ModMetaData>

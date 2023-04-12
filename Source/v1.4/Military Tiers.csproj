@@ -36,10 +36,6 @@
       <HintPath>..\..\..\..\..\..\workshop\content\294100\839005762\1.4\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Android Tiers Reforged">
-      <HintPath>..\..\..\Dev_Android Tiers\1.4\Assemblies\Android Tiers Reforged.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -50,6 +46,14 @@
     </Reference>
     <Reference Include="ISharpZipLib">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\ISharpZipLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mechanical Humanlikes Core">
+      <HintPath>..\..\..\Dev_Mechanical Humanlikes Core\1.4\Assemblies\Mechanical Humanlikes Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MH Android Tiers Core">
+      <HintPath>..\..\..\Dev_MH Android Tiers Core\1.4\Assemblies\MH Android Tiers Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
@@ -177,17 +181,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AndroidTiersMSeries.cs" />
     <Compile Include="Comps\AbilityComps\CompAbilityEffect_ApplyHediffsToTargetAndUser.cs" />
     <Compile Include="Comps\AbilityComps\CompProperties\CompProperties_AbilityApplyHediffsToTargetAndUser.cs" />
     <Compile Include="DefOfs\ATM_PawnKindDefOf.cs" />
     <Compile Include="DefOfs\ATM_ThingDefOf.cs" />
-    <Compile Include="Harmony\Hediff_Fractal_Patch.cs" />
     <Compile Include="Hediffs\HediffGiver_PaladinActiveArmor.cs" />
     <Compile Include="MarkFiveCaller\MechFallClass.cs" />
     <Compile Include="MarkFiveCaller\MechFallMote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MarkFiveCaller\Verb_MechFall.cs" />
+    <Compile Include="Quests\M4Quest\DownedM4Comp.cs" />
+    <Compile Include="Quests\M4Quest\GenStep_DownedM4.cs" />
+    <Compile Include="Quests\M4Quest\SitePartWorker_M4Arrival.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

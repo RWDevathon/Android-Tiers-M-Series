@@ -23,7 +23,7 @@
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -58,7 +58,7 @@
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>1</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -102,7 +102,7 @@
             <skipChance>0.95</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>ATR_RepairStimIntermediate</thingDef>
+                    <thingDef>MHC_RepairStimIntermediate</thingDef>
                     <countRange>3</countRange>
                 </li>
             </subOptionsChooseOne>

@@ -28,7 +28,7 @@ namespace ATReforged
             }
             base.Tick();
         }
-        
+
         private void CreateExplosion()
         {
             GenExplosion.DoExplosion(Position, Map, 20, DamageDefOf.EMP, instigator, 100, -1f, null, weaponDef, def);
@@ -50,7 +50,7 @@ namespace ATReforged
             PawnGenerationRequest request = new PawnGenerationRequest(ATM_PawnKindDefOf.ATM_M5TitanColony, instigator.Faction, PawnGenerationContext.NonPlayer);
             Pawn pawn = PawnGenerator.GeneratePawn(request);
             FilthMaker.TryMakeFilth(Position, Map, ThingDefOf.Filth_RubbleBuilding, 30);
-            
+
             // There is a very small chance the unit will be permanently hostile and try to murder everything it can find.
             if (Rand.Chance(0.05f))
             {
@@ -61,7 +61,7 @@ namespace ATReforged
                 hediff.Severity = 1f;
                 pawn.health.AddHediff(hediff, null, null);
 
-                Messages.Message("ATR_HostileMechFall".Translate(), MessageTypeDefOf.ThreatBig);
+                Messages.Message("ATM_HostileMechFall".Translate(), MessageTypeDefOf.ThreatBig);
             }
 
             GenSpawn.Spawn(pawn, Position, Map);

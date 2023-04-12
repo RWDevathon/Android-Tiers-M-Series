@@ -79,7 +79,9 @@
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <InjuryHealingFactor>4</InjuryHealingFactor>
-            <ATR_MaintenanceRetention>1.75</ATR_MaintenanceRetention>
+            <MHC_MaintenanceRetention>1.75</MHC_MaintenanceRetention>
+            <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
+            <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
             <AimingDelayFactor>0.5</AimingDelayFactor>
             <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
@@ -161,19 +163,27 @@
 			</hediffGiverSets>
 		</race>
 		<modExtensions>
-            <!-- All options presented here to demonstrate all usable nodes. -->
-			<li Class="ATReforged.ATR_MechTweaker">
-                <canBeAndroid>true</canBeAndroid> <!-- default: true; purpose: enables/disables this race ever being an android -->
-                <canBeDrone>false</canBeDrone> <!-- default: true; purpose: enables/disables this race ever being a drone -->
-                <needsMaintenance>true</needsMaintenance> <!-- default: true; purpose: enables/disables maintenance mechanic for this race -->
-                <droneSkillLevel>12</droneSkillLevel> <!-- default: 8; purpose: controls default skill levels in all skills -->
-                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories> <!-- default: false; purpose: controls whether drones use their pawn kind for the backstory or use explicitly provided backstories. -->
-                <droneChildhoodBackstoryDef></droneChildhoodBackstoryDef> <!-- default: null; purpose: sets the childhood backstory of all drones of this race if the above is false. -->
-                <droneAdulthoodBackstoryDef></droneAdulthoodBackstoryDef> <!-- default: null; purpose: sets the adulthood backstory of all drones of this race if the above is false. -->
-                <dronesCanHaveTraits>true</dronesCanHaveTraits> <!-- default: false; purpose: enables/disables this race having traits -->
-                <canInherentlyUseSkyMind>true</canInherentlyUseSkyMind> <!-- default: false; purpose: enables/disables this race being able to inherently use the SkyMind without an implant (does nothing if a drone) -->
-                <needsCoreAsAndroid>false</needsCoreAsAndroid> <!-- default: true; purpose: enables/disables the race getting cores on spawn or needing a core to operate (does nothing if a drone) -->
-			</li>
+            <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
+                <canBeDrone>false</canBeDrone>
+                <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>
+                <sapientNoneGenderNameMaker>ATR_AndroidNoneNames</sapientNoneGenderNameMaker>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+                <blacklistedSapientNeeds>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                    <li>Beauty</li>
+                    <li>Comfort</li>
+                    <li>RoomSize</li>
+                </blacklistedSapientNeeds>
+            </li>
+            <li Class="ATReforged.ATR_PawnExtension">
+                <canInherentlyUseSkyMind>true</canInherentlyUseSkyMind>
+            </li>
 		</modExtensions>
 		<butcherProducts>
 			<Plasteel>40</Plasteel>

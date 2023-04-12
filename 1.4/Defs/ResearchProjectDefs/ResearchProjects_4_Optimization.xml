@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ATM_M3Paladins</defName>
+		<label>M3 Paladins</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Paladins were the first sapient mechanical unit idealized, blueprinted, and created by artifical intelligences alone, and is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators.</description>
+		<baseCost>2800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ATR_MechanicalOptimization</li>
+            <li>ATM_M2Bishops</li>
+        </prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1.5</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

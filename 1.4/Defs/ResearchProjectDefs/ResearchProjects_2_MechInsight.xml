@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ATM_M1Warriors</defName>
+		<label>M1 Warriors</label>
+		<tab>ATR_MechResearch</tab>
+		<description>Mark one warrior units are the standard baseline for military android variants - cheap, durable, and powerful. These are units crafted for war and war alone, and they are very good at it.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ATR_MechanicalInsight</li>
+        </prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

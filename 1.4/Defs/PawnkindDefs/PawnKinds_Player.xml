@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">
 		<defName>ATM_M1WarriorColony</defName>
 		<label>M1 Newboot Warrior</label>
 		<race>ATM_Mark1Warrior</race>
@@ -14,7 +14,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">
 		<defName>ATM_M2BishopColony</defName>
 		<label>M2 Newboot Bishop</label>
 		<race>ATM_Mark2Bishop</race>
@@ -27,7 +27,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">
 		<defName>ATM_M3PaladinColony</defName>
 		<label>M3 Newboot Paladin</label>
 		<race>ATM_Mark3Paladin</race>
@@ -40,10 +40,12 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">
 		<defName>ATM_M4JellymanColony</defName>
 		<label>M4 Jellyman</label>
 		<race>ATM_Mark4Jellyman</race>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>200</maxGenerationAge>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
@@ -56,7 +58,7 @@
         </abilities>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="BaseNewbootPlayerPawnKind">
+	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">
 		<defName>ATM_M5TitanColony</defName>
 		<label>M5 Titan</label>
 		<race>ATM_Mark5Titan</race>

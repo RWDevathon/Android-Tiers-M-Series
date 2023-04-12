@@ -4,13 +4,13 @@
     <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M1WarriorGenerator</defName>
         <label>M1 Warrior</label>
-        <description>An uninitialized Mark 1 Warrior. Mark one warrior units, freed from the constraint of appearing distinctly humanlike, are a class above Tier one Androids in survivability, strength, and power efficiency. These are units crafted for war and war alone, and they are very good at it given their low cost.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat."</description>
+        <description>An uninitialized Mark 1 Warrior. Mark one warrior units, freed from the constraint of appearing distinctly humanlike, are powerful experiments in survivability, strength, and power efficiency. These are units crafted for war and war alone, and they are very good at it given their low cost.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat."</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Mark1/ATM_MarkOneExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>ATR_T1Androids</researchPrerequisite>
+            <researchPrerequisite>ATM_M1Warriors</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>90</Steel>
@@ -18,7 +18,7 @@
             <ComponentIndustrial>14</ComponentIndustrial>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATM_M1WarriorColony</pawnKind>
             </li>
         </comps>
@@ -27,14 +27,14 @@
     <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M2BishopGenerator</defName>
         <label>M2 Bishop</label>
-        <description>An uninitialized Mark 2 Bishop. Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With four legs, four arms, and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't solely suffice and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line unrelentingly.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
+        <description>An uninitialized Mark 2 Bishop. Mark two bishop units, like their Mark 1 predecessors, are inhuman looking machines built for war. With an alien looking set of 6 limbs interchangeably used as legs and arms, and backup internalized visual sensors, these slender, tall war units are exceedingly tough to take out of fights. More expensive than M1 warriors, the M2 is designed for fighting where mass quantity can't solely suffice and where a slight quality increase can win the day. These are units crafted for combat, both defensively and offensively, and can hold or push a line unrelentingly.\n\nLike its predecessor, it is incapable of wearing apparel and comes in a default red paint color. Due to its thin build and considerable height, it has earned the nicknames "deathstick," and "warpole," while its distinctive "head" segment earned it its most common nickname: "Bishop."</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Mark2/ATM_MarkTwoExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
             <workAmount>22500</workAmount>
-            <researchPrerequisite>ATR_T2Androids</researchPrerequisite>
+            <researchPrerequisite>ATM_M2Bishops</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>80</Steel>
@@ -44,7 +44,7 @@
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATM_M2BishopColony</pawnKind>
             </li>
         </comps>
@@ -60,7 +60,7 @@
         </graphicData>
         <recipeMaker>
             <workAmount>28500</workAmount>
-            <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
+            <researchPrerequisite>ATM_M3Paladins</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>140</Steel>
@@ -72,7 +72,7 @@
             <ComponentSpacer>6</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>ATM_M3PaladinColony</pawnKind>
             </li>
         </comps>

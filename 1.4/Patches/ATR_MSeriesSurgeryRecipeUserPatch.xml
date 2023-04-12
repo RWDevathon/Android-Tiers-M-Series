@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Add the MSeries units to the mechanical surgery abstract class so it gets all appropriate mechanical surgeries -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[@Name="ATR_surgeryMechanical"]/recipeUsers</xpath>
-		<value>
+    <!-- Add military tiers to MHC's Surgery Recipes at the abstract level -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[@Name="MHC_surgeryMechanicalBase"]/recipeUsers</xpath>
+        <value>
             <li>ATM_Mark1Warrior</li>
             <li>ATM_Mark2Bishop</li>
             <li>ATM_Mark3Paladin</li>
-		</value>
-	</Operation>
+        </value>
+    </Operation>
+
+    <!-- Add military tiers to ATR's android surgery recipes at the abstract level -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[@Name="ATR_surgeryMechanicalBase"]/recipeUsers</xpath>
+        <value>
+            <li>ATM_Mark1Warrior</li>
+            <li>ATM_Mark2Bishop</li>
+            <li>ATM_Mark3Paladin</li>
+        </value>
+    </Operation>
 
 </Patch>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ATR_ChargingPodBase">
+    <ThingDef ParentName="MHC_ChargingPodBase">
 	    <defName>ATM_ChargingPodMech</defName>
         <label>Mech pod</label>
         <description>An extremely large charging pod capable of storing the bulk of a war mech that can not fit in any smaller pod. Amusingly, smaller units can still use this to charge even though it dwarfs them in size.</description>
