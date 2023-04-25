@@ -5,7 +5,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ATR_BaseMechanicalPawn">
 		<defName>ATM_Mark5Titan</defName>
 		<label>M5 Titan</label>
-		<description>The Mark five is the product of ingenious engineering and a startling lack of actual creativity. Necessitating an orbital production facility with instruments of picoscoping precision and an interstellar empire's worth of logistical supply to manufacture, the Mark five is a testament to human achievement. It is, however, still generally considered a collosal failure of a design. Inexplicably, designers gave it a humanlike form and built it in a way that made it wholly incompatible with pre-existing technology and tactics, even going so far as to somehow give it less actual intelligence than a mark two.\n\nHow such a machine ended up here is not understood, but it is safe to say this likely one of the single most dangerous entities on the planet.</description>
+		<description>The Mark five is the product of ingenious engineering and a startling lack of actual creativity. Necessitating an orbital production facility with instruments of picoscoping precision and an interstellar empire's worth of logistical supply to manufacture, the Mark five is a testament to human achievement. It is, however, still generally considered a collosal failure of a design. Inexplicably, designers gave it a humanlike form and built it in a way that made it wholly incompatible with pre-existing technology and tactics, even going so far as to somehow give it less actual intelligence than a mark two.\n\nHow such a machine ended up here is not understood, but it is safe to say this is likely one of the single most dangerous entities on the planet.</description>
         <alienRace>
 			<generalSettings>
 				<alienPartGenerator>

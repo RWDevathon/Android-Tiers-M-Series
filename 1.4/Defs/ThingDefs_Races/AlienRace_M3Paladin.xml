@@ -181,9 +181,6 @@
                     <li>RoomSize</li>
                 </blacklistedSapientNeeds>
             </li>
-            <li Class="ATReforged.ATR_PawnExtension">
-                <canInherentlyUseSkyMind>true</canInherentlyUseSkyMind>
-            </li>
 		</modExtensions>
 		<butcherProducts>
 			<Plasteel>40</Plasteel>
