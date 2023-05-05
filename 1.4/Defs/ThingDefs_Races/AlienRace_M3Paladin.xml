@@ -82,6 +82,7 @@
             <MHC_MaintenanceRetention>1.75</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
+            <MHC_MechanicalNeedCapacity>4</MHC_MechanicalNeedCapacity>
             <AimingDelayFactor>0.5</AimingDelayFactor>
             <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
@@ -180,6 +181,10 @@
                     <li>Comfort</li>
                     <li>RoomSize</li>
                 </blacklistedSapientNeeds>
+                <mechanicalNeeds>
+                    <li>MHC_Coolant</li>
+                    <li>MHC_Lubrication</li>
+                </mechanicalNeeds>
             </li>
 		</modExtensions>
 		<butcherProducts>

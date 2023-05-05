@@ -94,6 +94,7 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.5</MHC_ChargingSpeed>
+            <MHC_MechanicalNeedCapacity>60</MHC_MechanicalNeedCapacity>
 			<Mass>450</Mass>
 		</statBases>
 		<tools>
@@ -163,6 +164,10 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
+                <mechanicalNeeds>
+                    <li>MHC_Coolant</li>
+                    <li>MHC_Lubrication</li>
+                </mechanicalNeeds>
             </li>
 		</modExtensions>
 		<butcherProducts>
