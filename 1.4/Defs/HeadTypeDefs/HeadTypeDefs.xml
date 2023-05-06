@@ -6,7 +6,7 @@
 
     <HeadTypeDef>
         <defName>ATM_Mark1_None</defName>
-        <graphicPath>Things/Pawns/Humanlikes/Mark1/head/None_Average_Normal</graphicPath>
+        <graphicPath>Things/Pawns/Humanlikes/Mark1/head/None</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 
@@ -15,7 +15,7 @@
 
     <HeadTypeDef>
         <defName>ATM_Mark2_None</defName>
-        <graphicPath>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal</graphicPath>
+        <graphicPath>Things/Pawns/Humanlikes/Mark2/head/None</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 
@@ -24,7 +24,7 @@
 
     <HeadTypeDef>
         <defName>ATM_Mark3_None</defName>
-        <graphicPath>Things/Pawns/Humanlikes/Mark3/head/None_Average_Normal</graphicPath>
+        <graphicPath>Things/Pawns/Humanlikes/Mark3/head/None</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 
@@ -33,7 +33,7 @@
 
     <HeadTypeDef>
         <defName>ATM_Mark4_None</defName>
-        <graphicPath>Things/Pawns/Humanlikes/Mark4/head/None_Average_Normal</graphicPath>
+        <graphicPath>Things/Pawns/Humanlikes/Mark4/head/None</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 
@@ -43,7 +43,7 @@
 
     <HeadTypeDef>
         <defName>ATM_Mark5_None</defName>
-        <graphicPath>Things/Pawns/Humanlikes/Mark5/head/None_Average_Normal</graphicPath>
+        <graphicPath>Things/Pawns/Humanlikes/Mark5/head/None</graphicPath>
         <gender>None</gender>
     </HeadTypeDef>
 

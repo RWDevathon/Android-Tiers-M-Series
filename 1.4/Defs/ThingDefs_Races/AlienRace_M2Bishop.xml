@@ -21,11 +21,11 @@
                     </genderGraphics>
                 </body>
                 <head>
-                    <path>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal</path>
+                    <path>Things/Pawns/Humanlikes/Mark2/head/None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Mark2/head/Male_Average_Normal</Male>
-                        <Female>Things/Pawns/Humanlikes/Mark2/head/Female_Average_Normal</Female>
-                        <None>Things/Pawns/Humanlikes/Mark2/head/None_Average_Normal</None>
+                        <Male>Things/Pawns/Humanlikes/Mark2/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Mark2/head/Female</Female>
+                        <None>Things/Pawns/Humanlikes/Mark2/head/None</None>
                     </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
