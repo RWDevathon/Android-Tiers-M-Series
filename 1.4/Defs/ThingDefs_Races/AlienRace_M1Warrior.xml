@@ -81,7 +81,7 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.2</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>1.5</MHC_MechanicalNeedCapacity>
+            <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
 			<Mass>45.5</Mass>
 		</statBases>
 		<tools>
