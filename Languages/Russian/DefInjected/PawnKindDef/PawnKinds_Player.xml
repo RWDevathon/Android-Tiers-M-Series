@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATM_M1WarriorColony.label>M1 Воин новобранец</ATM_M1WarriorColony.label>
+  <ATM_M1WarriorColony.labelPlural>M1 Воины новобранцы</ATM_M1WarriorColony.labelPlural>
+  <ATM_M1WarriorColony.labelMale>мужчина M1 Воин новобранец</ATM_M1WarriorColony.labelMale>
+  <ATM_M1WarriorColony.labelMalePlural>мужчины M1 Воины новобранцы</ATM_M1WarriorColony.labelMalePlural>
+  <ATM_M1WarriorColony.labelFemale>женщина M1 Воин новобранец</ATM_M1WarriorColony.labelFemale>
+  <ATM_M1WarriorColony.labelFemalePlural>женщины M1 Воины новобранцы</ATM_M1WarriorColony.labelFemalePlural>
+
+  <ATM_M2BishopColony.label>M2 Епископ Новобранец</ATM_M2BishopColony.label>
+  <ATM_M2BishopColony.labelPlural>M2 Епископы новобранцы</ATM_M2BishopColony.labelPlural>
+  <ATM_M2BishopColony.labelMale>мужчина M2 Епископ Новобранец</ATM_M2BishopColony.labelMale>
+  <ATM_M2BishopColony.labelMalePlural>мужчины M2 Епископы новобранцы</ATM_M2BishopColony.labelMalePlural>
+  <ATM_M2BishopColony.labelFemale>женщина M2 Епископ Новобранец</ATM_M2BishopColony.labelFemale>
+  <ATM_M2BishopColony.labelFemalePlural>женщины M2 Епископы новобранцы</ATM_M2BishopColony.labelFemalePlural>
+
+  <ATM_M3PaladinColony.label>M3 Паладин Новобранец</ATM_M3PaladinColony.label>
+  <ATM_M3PaladinColony.labelPlural>M3 Новобранцы паладины</ATM_M3PaladinColony.labelPlural>
+  <ATM_M3PaladinColony.labelMale>мужчина M3 Паладин Новобранец</ATM_M3PaladinColony.labelMale>
+  <ATM_M3PaladinColony.labelMalePlural>мужчины M3 Новобранцы паладины</ATM_M3PaladinColony.labelMalePlural>
+  <ATM_M3PaladinColony.labelFemale>женщина M3 Паладин Новобранец</ATM_M3PaladinColony.labelFemale>
+  <ATM_M3PaladinColony.labelFemalePlural>женщины M3 Новобранцы паладины</ATM_M3PaladinColony.labelFemalePlural>
+
+  <ATM_M4JellymanColony.label>M4 Джеллиман</ATM_M4JellymanColony.label>
+  <ATM_M4JellymanColony.labelPlural>M4 Джеллиманы</ATM_M4JellymanColony.labelPlural>
+  <ATM_M4JellymanColony.labelMale>мужчина M4 Джеллиман</ATM_M4JellymanColony.labelMale>
+  <ATM_M4JellymanColony.labelMalePlural>мужчины M4 Джеллиманы</ATM_M4JellymanColony.labelMalePlural>
+  <ATM_M4JellymanColony.labelFemale>женщина M4 Джеллиман</ATM_M4JellymanColony.labelFemale>
+  <ATM_M4JellymanColony.labelFemalePlural>женщины M4 Джеллиманы</ATM_M4JellymanColony.labelFemalePlural>
+
+  <ATM_M5TitanColony.label>M5 Титан</ATM_M5TitanColony.label>
+  <ATM_M5TitanColony.labelPlural>M5 Титаны</ATM_M5TitanColony.labelPlural>
+  <ATM_M5TitanColony.labelMale>мужчина M5 Титан</ATM_M5TitanColony.labelMale>
+  <ATM_M5TitanColony.labelMalePlural>мужчины M5 Титаны</ATM_M5TitanColony.labelMalePlural>
+  <ATM_M5TitanColony.labelFemale>женщина M5 Титан</ATM_M5TitanColony.labelFemale>
+  <ATM_M5TitanColony.labelFemalePlural>женщины M5 Титаны</ATM_M5TitanColony.labelFemalePlural>
+
+
+</LanguageData>
