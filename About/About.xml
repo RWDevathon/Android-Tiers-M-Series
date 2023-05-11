@@ -37,11 +37,9 @@
         <li>Killathon.MechHumanlikes.AndroidTiersCore</li><!-- Dependency -->
     </loadAfter>
     <description><![CDATA[
-This dev project is an extended sub-mod of Android Tiers Reforged, bringing into the fold the implied but never introduced M-Series military androids as a coherent group. This project is intended to act as a showcase for how to create simple sub-mod mechanical humanlikes for android tiers reforged!
+Military mechanical humanlikes, marks one through five, all designed with durability and resilience in mind.
 
-M1 - M5 pawns and related mechanics.
-
-Art is the LAST priority, as I have the art work type disabled in my backstory.
+Notice the art is just red androids? I have the art work type disabled in my backstory. Art donations very welcome!
 
 Version <color=#FFD800>1.0.0</color>.
     ]]></description>
