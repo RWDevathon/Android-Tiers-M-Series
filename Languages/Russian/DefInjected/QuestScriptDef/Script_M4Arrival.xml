@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATR_OpportunitySite_MarkFourArrival.root.nodes.5.node.name>siteThreatChance</ATR_OpportunitySite_MarkFourArrival.root.nodes.5.node.name>
+  <ATR_OpportunitySite_MarkFourArrival.root.nodes.5.elseNode.name>siteThreatChance</ATR_OpportunitySite_MarkFourArrival.root.nodes.5.elseNode.name>
+  <ATR_OpportunitySite_MarkFourArrival.root.nodes.10.node.nodes.0.label>Квест истек: [resolvedQuestName]</ATR_OpportunitySite_MarkFourArrival.root.nodes.10.node.nodes.0.label>
+  <ATR_OpportunitySite_MarkFourArrival.root.nodes.10.node.nodes.0.text>Таинственная сила, манящая вас к месту крушения зловещего метеорита, внезапно прекратилась. Квест [resolvedQuestName] истек.</ATR_OpportunitySite_MarkFourArrival.root.nodes.10.node.nodes.0.text>
+  <ATR_OpportunitySite_MarkFourArrival.questDescriptionRules.rulesStrings.0>questDescription-&gt;С пронзительным ревом огненный шар мчится по небу. Кажется, что сам воздух дрожит, а неактивные механоиды рассыпаются как пепел. Кажется, что он прилетел не из космоса. В конце концов, он приземляется за горизонтом - и все же каким-то образом вам известно точное место его приземления. Вам известны имя и природа, но откуда вы это знаете?
+                \nНеобъяснимо, но вы чувствуете, что [allSitePartsDescriptionsExceptFirst]</ATR_OpportunitySite_MarkFourArrival.questDescriptionRules.rulesStrings.0>
+  <ATR_OpportunitySite_MarkFourArrival.questNameRules.rulesStrings.0>questName-&gt;Механит Метеорит</ATR_OpportunitySite_MarkFourArrival.questNameRules.rulesStrings.0>
+
+
+</LanguageData>

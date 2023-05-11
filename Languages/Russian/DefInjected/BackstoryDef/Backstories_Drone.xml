@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Childhood -->
+
+  <ATM_MechChildhoodMilitaryDrone.title>Дрон</ATM_MechChildhoodMilitaryDrone.title>
+  <ATM_MechChildhoodMilitaryDrone.titleShort>Дрон</ATM_MechChildhoodMilitaryDrone.titleShort>
+  <ATM_MechChildhoodMilitaryDrone.baseDesc>У {PAWN_nameDef} есть "детство", которое состоит ровно из одного значения - временной метки активации {PAWN_possessive}.</ATM_MechChildhoodMilitaryDrone.baseDesc>
+
+
+  <!-- Adulthood -->
+
+  <ATM_MechAdulthoodMilitaryDrone.title>Военный дрон</ATM_MechAdulthoodMilitaryDrone.title>
+  <ATM_MechAdulthoodMilitaryDrone.titleShort>Дрон</ATM_MechAdulthoodMilitaryDrone.titleShort>
+  <ATM_MechAdulthoodMilitaryDrone.baseDesc>{PAWN_nameDef} - это дрон военного образца, разработанный и запрограммированный только для боевых целей.</ATM_MechAdulthoodMilitaryDrone.baseDesc>
+
+
+</LanguageData>

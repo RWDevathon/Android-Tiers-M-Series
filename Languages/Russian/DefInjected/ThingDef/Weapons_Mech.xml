@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Rotary Autocannon -->
+
+  <ATM_AutocannonShell.label>Снаряд автопушки</ATM_AutocannonShell.label>
+
+  <ATM_RotaryAutocannon.label>Роторная автопушка</ATM_RotaryAutocannon.label>
+  <ATM_RotaryAutocannon.description>Это массивное оружие, превосходящее по размерам человека, предназначено для поражения даже самых крупных противников шквалом артиллерийских снарядов прямой наводки. Вращающиеся стволы и высокоэффективный автозарядный магазин обеспечивают постоянный темп смертоносного огня. \n\nПодобное оружие, устанавливаемое только на массивные боевые орудия, заставляет задуматься: Было ли такое оружие изобретено для того, чтобы победить мехи, или мехи были изобретены для того, чтобы владеть им?</ATM_RotaryAutocannon.description>
+  <ATM_RotaryAutocannon.tools.0.label>ствол</ATM_RotaryAutocannon.tools.0.label>
+  <ATM_RotaryAutocannon.tools.1.label>приклад</ATM_RotaryAutocannon.tools.1.label>
+  <ATM_RotaryAutocannon.tools.2.label>рукоятка</ATM_RotaryAutocannon.tools.2.label>
+
+
+  <!-- Rotary Shrapnelcannon -->
+
+  <ATM_ShrapnelcannonChunk.label>Кусок шрапнели</ATM_ShrapnelcannonChunk.label>
+
+  <ATM_RotaryShrapnelcannon.label>Роторная шрапнельная пушка</ATM_RotaryShrapnelcannon.label>
+  <ATM_RotaryShrapnelcannon.description>Это массивное оружие, превосходящее по размерам человека, предназначено для поражения плотно упакованных целей шквалом осколков размером со скамейку. Вращающиеся стволы и высокоэффективный автозарядный магазин обеспечивают постоянный темп смертоносного огня. \n\nПодобное оружие, устанавливаемое только на массивные боевые орудия, заставляет задуматься: Было ли такое оружие изобретено для того, чтобы победить мехи, или мехи были изобретены для того, чтобы владеть им?</ATM_RotaryShrapnelcannon.description>
+  <ATM_RotaryShrapnelcannon.tools.0.label>ствол</ATM_RotaryShrapnelcannon.tools.0.label>
+  <ATM_RotaryShrapnelcannon.tools.1.label>приклад</ATM_RotaryShrapnelcannon.tools.1.label>
+  <ATM_RotaryShrapnelcannon.tools.2.label>рукоятка</ATM_RotaryShrapnelcannon.tools.2.label>
+
+
+  <!-- Headhunter Cannon -->
+
+  <ATM_HeadhunterCannon.label>Охотничья пушка</ATM_HeadhunterCannon.label>
+  <ATM_HeadhunterCannon.description>Это массивное орудие размером с человеческий рост предназначено для стрельбы дальнобойными артиллерийскими снарядами прямой наводки с высокой точностью, чтобы уничтожать ключевые цели до того, как они смогут нанести ответный удар. Благодаря большому количеству внутренних компонентов автокоррекции, это оружие по своей природе является танкодробителем. \n\nПодобное оружие, устанавливаемое только на массивные боевые орудия, заставляет задуматься: Было ли такое оружие изобретено для того, чтобы победить мехи, или мехи были изобретены для того, чтобы владеть им?</ATM_HeadhunterCannon.description>
+  <ATM_HeadhunterCannon.tools.0.label>ствол</ATM_HeadhunterCannon.tools.0.label>
+  <ATM_HeadhunterCannon.tools.1.label>приклад</ATM_HeadhunterCannon.tools.1.label>
+  <ATM_HeadhunterCannon.tools.2.label>рукоятка</ATM_HeadhunterCannon.tools.2.label>
+
+
+  <!-- Mech Poleaxe -->
+
+  <ATM_MechPoleaxe.label>Мех Секира</ATM_MechPoleaxe.label>
+  <ATM_MechPoleaxe.description>Это массивное оружие размером со взрослого человека служит точно для той же цели, что и его меньшие собратья: сблизиться с врагом и разрубить его на части. Конечно, это оружие лучше, чем его предки - оно сделано из прекрасных блестящих материалов, отточено до совершенства... и достаточно велико, чтобы забрызгать людей, а не колоть или резать. \n\nПодобное оружие, которое может быть использовано только как массивное оружие войны, вызывает вопрос: Было ли такое оружие изобретено для того, чтобы победить мехи, или мехи были изобретены для того, чтобы владеть им?</ATM_MechPoleaxe.description>
+  <ATM_MechPoleaxe.tools.0.label>шип</ATM_MechPoleaxe.tools.0.label>
+  <ATM_MechPoleaxe.tools.1.label>топор</ATM_MechPoleaxe.tools.1.label>
+  <ATM_MechPoleaxe.tools.2.label>молот</ATM_MechPoleaxe.tools.2.label>
+
+
+</LanguageData>
