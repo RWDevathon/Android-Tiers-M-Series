@@ -137,7 +137,7 @@
 			<thinkTreeMain>Humanlike</thinkTreeMain>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<lifeExpectancy>1000</lifeExpectancy>
-			<body>ATR_AndroidBody</body>
+			<body>ATM_Mark1Body</body>
 			<baseHungerRate>4</baseHungerRate>
 			<baseHealthScale>7.5</baseHealthScale>
 			<baseBodySize>5</baseBodySize>

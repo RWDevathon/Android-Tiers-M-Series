@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Add the M units to combat and settlement group makers for the Android Union. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[defName="ATR_AndroidUnion"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options</xpath>
+        <value>
+            <ATM_M1WarriorUnion>10</ATM_M1WarriorUnion>
+            <ATM_M2BishopUnion>4</ATM_M2BishopUnion>
+            <ATM_M3PaladinUnion>1</ATM_M3PaladinUnion>
+        </value>
+    </Operation>
+
+</Patch>
