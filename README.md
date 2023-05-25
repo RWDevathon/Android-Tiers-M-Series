@@ -14,7 +14,7 @@ They're cheaper, sturdier, and more dangerous, but generally lack the work capab
 * The M3 Paladin Unit, a massive soldier with 4 leg-arms and 2 arms, that takes significantly less damage the more damage it has taken.
 * The M4 Jellyman, an enigmatic mechanite blob with sapient intelligence and very odd properties, which can only be acquired by strange means.
 * The M5 Titan, a massive Ultratech war machine with drone intelligence that is a fine display of human engineering but is severely lacking in ingenuity.
-* All M-Series units except the M4 can not wear apparel, and have high stats and an exceedingly resilient body layout. Killing an M-Series unit (ignoring RimWorld's "health threshold death" and random-raider death-on-downed chance) outright is nearly impossible, as they'll go down long before death.
+* All M-Series units can not wear apparel, and have high stats and an exceedingly resilient body layout. Killing an M-Series unit (ignoring RimWorld's "health threshold death" and random-raider death-on-downed chance) outright is nearly impossible, as they'll go down long before death.
 
 ## Known Issues/Incompatibilities
 * Allow Tool: Tethers the "Finish Off" work type to melee skill, which triggers RimWorld to think that melee is included in the "All Work" category and by extension breaking a Paladin backstory.
