@@ -139,6 +139,10 @@
 			<baseHungerRate>0.8</baseHungerRate>
             <nameGenerator>ATR_DroneNoneNames</nameGenerator>
 		</race>
+        <recipes>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <canBeSapient>false</canBeSapient>

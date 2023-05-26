@@ -153,6 +153,13 @@
 				</points>
 			</ageGenerationCurve>
         </race>
+        <recipes>
+            <li>MHC_MechanicalShutdown</li>
+            <li>MHC_ReprogramDrone</li>
+            <li>MHC_RebootUnit</li>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <canBeSapient>false</canBeSapient>
@@ -177,11 +184,6 @@
             <Uranium>30</Uranium>
 			<Gold>6</Gold>
 		</butcherProducts>
-        <recipes>
-            <li>MHC_MechanicalShutdown</li>
-            <li>MHC_ReprogramDrone</li>
-            <li>MHC_RebootUnit</li>
-        </recipes>
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>

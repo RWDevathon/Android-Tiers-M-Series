@@ -163,6 +163,10 @@
 				<li>ATM_MechanicalPaladin</li>
 			</hediffGiverSets>
 		</race>
+        <recipes>
+            <li>MHC_CoolantInjection</li>
+            <li>MHC_LubricantInjection</li>
+        </recipes>
 		<modExtensions>
             <li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
                 <canBeDrone>false</canBeDrone>
