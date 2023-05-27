@@ -13,8 +13,9 @@
             <researchPrerequisite>ATM_M1Warriors</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>90</Steel>
+            <Steel>60</Steel>
             <Plasteel>40</Plasteel>
+            <Uranium>15</Uranium>
             <MHC_CoolantPack>1</MHC_CoolantPack>
             <MHC_LubricationPack>1</MHC_LubricationPack>
             <ComponentIndustrial>14</ComponentIndustrial>
@@ -39,8 +40,9 @@
             <researchPrerequisite>ATM_M2Bishops</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>80</Steel>
+            <Steel>20</Steel>
             <Plasteel>80</Plasteel>
+            <Uranium>30</Uranium>
             <MHC_CoolantPack>2</MHC_CoolantPack>
             <MHC_LubricationPack>2</MHC_LubricationPack>
             <Gold>1</Gold>
@@ -67,9 +69,9 @@
             <researchPrerequisite>ATM_M3Paladins</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>140</Steel>
+            <Steel>40</Steel>
             <Plasteel>180</Plasteel>
-            <Uranium>180</Uranium>
+            <Uranium>140</Uranium>
             <Hyperweave>20</Hyperweave>
             <MHC_CoolantPack>5</MHC_CoolantPack>
             <MHC_LubricationPack>5</MHC_LubricationPack>
