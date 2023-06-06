@@ -21,6 +21,7 @@ They're cheaper, sturdier, and more dangerous, but generally lack the work capab
 
 ## Contributions
 * Thermo: Thumbnail/Preview
+* Indonesian Gentleman(Discord)/Greensniperhat(Steam): ATM Pawn graphics and M5 weaponry!
 
 Background by kotkoa on Freepik
 (https://www.freepik.com/free-vector/big-data-concept-background_21063019.htm#query=red%20circuit%20backround&position=0&from_view=search&track=robertav1_2_sidr%22%3EImage)

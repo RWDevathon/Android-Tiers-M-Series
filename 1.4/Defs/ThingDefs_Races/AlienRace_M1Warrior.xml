@@ -14,19 +14,9 @@
 			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Mark1/body/Naked_None</path>
-                    <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Mark1/body/Naked_Male</Male>
-                        <Female>Things/Pawns/Humanlikes/Mark1/body/Naked_Female</Female>
-                        <None>Things/Pawns/Humanlikes/Mark1/body/Naked_None</None>
-                    </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Mark1/head/None</path>
-                    <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Mark1/head/Male</Male>
-                        <Female>Things/Pawns/Humanlikes/Mark1/head/Female</Female>
-                        <None>Things/Pawns/Humanlikes/Mark1/head/None</None>
-                    </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
@@ -38,6 +28,15 @@
                     <bodyTypes>
                         <li>Male</li>
                     </bodyTypes>
+                    <headOffset>(0, -0.1)</headOffset>
+                    <headOffsetSpecific>
+                        <east>
+                            <offset>(-0.125, 0)</offset>
+                        </east>
+                        <west>
+                            <offset>(0.125, 0)</offset>
+                        </west>
+                    </headOffsetSpecific>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -61,6 +60,7 @@
 							</second>
 						</li>
 					</colorChannels>
+					<customDrawSize>(0.8)</customDrawSize>
                 </alienPartGenerator>
             </generalSettings>
 		</alienRace>

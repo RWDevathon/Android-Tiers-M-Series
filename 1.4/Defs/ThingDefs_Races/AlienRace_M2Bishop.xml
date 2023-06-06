@@ -14,19 +14,9 @@
 			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Mark2/body/Naked_None</path>
-                    <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Mark2/body/Naked_Male</Male>
-                        <Female>Things/Pawns/Humanlikes/Mark2/body/Naked_Female</Female>
-                        <None>Things/Pawns/Humanlikes/Mark2/body/Naked_None</None>
-                    </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Mark2/head/None</path>
-                    <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Mark2/head/Male</Male>
-                        <Female>Things/Pawns/Humanlikes/Mark2/head/Female</Female>
-                        <None>Things/Pawns/Humanlikes/Mark2/head/None</None>
-                    </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
@@ -38,6 +28,15 @@
                     <bodyTypes>
                         <li>Male</li>
                     </bodyTypes>
+                    <headOffset>(0, 0.34)</headOffset>
+                    <headOffsetSpecific>
+                        <east>
+                            <offset>(-0.04, 0)</offset>
+                        </east>
+                        <west>
+                            <offset>(0.04, 0)</offset>
+                        </west>
+                    </headOffsetSpecific>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>

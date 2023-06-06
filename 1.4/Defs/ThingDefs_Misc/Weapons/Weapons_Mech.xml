@@ -47,7 +47,7 @@
         <graphicData>
             <texPath>Things/Items/Weapons/RotaryAutocannon</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>3</drawSize>
+            <drawSize>2.5</drawSize>
         </graphicData>
         <statBases>
             <Mass>42</Mass>
@@ -123,7 +123,7 @@
         <graphicData>
         <texPath>Things/Items/Weapons/RotaryShrapnelcannon</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>3</drawSize>
+        <drawSize>2.5</drawSize>
         </graphicData>
         <statBases>
             <Mass>42</Mass>
@@ -183,7 +183,7 @@
         <graphicData>
             <texPath>Things/Items/Weapons/HeadhunterCannon</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>4</drawSize>
+            <drawSize>3</drawSize>
         </graphicData>
         <statBases>
             <Mass>30</Mass>
