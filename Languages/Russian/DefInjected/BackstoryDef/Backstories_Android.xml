@@ -3,32 +3,32 @@
 
   <!-- Childhood -->
 
-  <ATM_MechChildhoodPaladinGallant.title>Паладин Галант</ATM_MechChildhoodPaladinGallant.title>
-  <ATM_MechChildhoodPaladinGallant.titleShort>Галант</ATM_MechChildhoodPaladinGallant.titleShort>
-  <ATM_MechChildhoodPaladinGallant.baseDesc>{PAWN_nameDef} был создан и активирован как член общества воинов-паладинов - общества, рожденного не фракцией, культурой или идеологией, а телом и целью. В силу своего создания {PAWN_pronoun} был галантом - ему еще предстояло заслужить титул паладина.</ATM_MechChildhoodPaladinGallant.baseDesc>
+  <ATM_MechChildhoodPaladinGallant.title>Бравый Паладин</ATM_MechChildhoodPaladinGallant.title>
+  <ATM_MechChildhoodPaladinGallant.titleShort>Бравый</ATM_MechChildhoodPaladinGallant.titleShort>
+  <ATM_MechChildhoodPaladinGallant.baseDesc>{PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? создан : создана} и {PAWN_gender ? активирован : активирована} членом воинского общества паладинов — общества, рождённого не фракцией, культурой или идеологией, а телом и целью. В силу своего происхождения {PAWN_pronoun} {PAWN_gender ? был : была} доблестным воином, но ещё не {PAWN_gender ? заслужил : заслужила} титул паладина.</ATM_MechChildhoodPaladinGallant.baseDesc>
 
-  <ATM_MechChildhoodJellyman.title>Прирожденный Джеллиман</ATM_MechChildhoodJellyman.title>
-  <ATM_MechChildhoodJellyman.titleShort>Прирожденный</ATM_MechChildhoodJellyman.titleShort>
-  <ATM_MechChildhoodJellyman.baseDesc>{PAWN_nameDef} родился желейным человеком - совокупностью механитов, образующих разумное существо. Обладая природными способностями и способным телом, {PAWN_pronoun} способен практически на все.</ATM_MechChildhoodJellyman.baseDesc>
+  <ATM_MechChildhoodJellyman.title>Прирожденный Желейный</ATM_MechChildhoodJellyman.title>
+  <ATM_MechChildhoodJellyman.titleShort>Желейный</ATM_MechChildhoodJellyman.titleShort>
+  <ATM_MechChildhoodJellyman.baseDesc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} {PAWN_gender ? желейным : желейной} — совокупностью механитов, образующих разумное существо. Обладая природными способностями и крепким телом, {PAWN_pronoun} {PAWN_gender ? способен : способна} практически на всё.</ATM_MechChildhoodJellyman.baseDesc>
 
 
   <!-- Adulthood -->
 
-  <ATM_MechAdulthoodPaladinBattlemaster.title>Боевой мастер паладин</ATM_MechAdulthoodPaladinBattlemaster.title>
-  <ATM_MechAdulthoodPaladinBattlemaster.titleShort>Боевой мастер</ATM_MechAdulthoodPaladinBattlemaster.titleShort>
-  <ATM_MechAdulthoodPaladinBattlemaster.baseDesc>{PAWN_nameDef} - боевой паладин, боец, который наслаждается войной и кровопролитием как самоцелью. {PAWN_pronoun} стремится оставить после себя триумфальное наследие побед и не будет делать ничего, кроме как сражаться - и мысленно готовиться к следующему бою.</ATM_MechAdulthoodPaladinBattlemaster.baseDesc>
+  <ATM_MechAdulthoodPaladinBattlemaster.title>Паладин Военачальник</ATM_MechAdulthoodPaladinBattlemaster.title>
+  <ATM_MechAdulthoodPaladinBattlemaster.titleShort>Военачальник</ATM_MechAdulthoodPaladinBattlemaster.titleShort>
+  <ATM_MechAdulthoodPaladinBattlemaster.baseDesc>{PAWN_nameDef} — военачальник паладинов. Объединение, которое наслаждается войной и кровопролитием как самоцелью. {PAWN_pronoun} стремится оставить после себя триумфальное наследие побед и не будет делать ничего, кроме как сражаться — мысленно готовясь к следующему бою.</ATM_MechAdulthoodPaladinBattlemaster.baseDesc>
 
   <ATM_MechAdulthoodPaladinSentinel.title>Паладин Страж</ATM_MechAdulthoodPaladinSentinel.title>
   <ATM_MechAdulthoodPaladinSentinel.titleShort>Страж</ATM_MechAdulthoodPaladinSentinel.titleShort>
-  <ATM_MechAdulthoodPaladinSentinel.baseDesc>{PAWN_nameDef} - дозорный паладинов, боец, который рассматривает паладинов как прирожденных хранителей и защитников. {PAWN_pronoun} будет сражаться, чтобы защитить {PAWN_possessive} товарищей, и не видит задачи ниже {PAWN_objective}.</ATM_MechAdulthoodPaladinSentinel.baseDesc>
+  <ATM_MechAdulthoodPaladinSentinel.baseDesc>{PAWN_nameDef} — страж паладинов. Объединение, которое рассматривает паладинов как прирожденных хранителей и защитников. {PAWN_pronoun} будет сражаться, чтобы защитить своих товарищей, и не считает ни одно задание ниже {PAWN_objective} достоинства.</ATM_MechAdulthoodPaladinSentinel.baseDesc>
 
   <ATM_MechAdulthoodPaladinHospitaller.title>Паладин Госпитальер</ATM_MechAdulthoodPaladinHospitaller.title>
   <ATM_MechAdulthoodPaladinHospitaller.titleShort>Госпитальер</ATM_MechAdulthoodPaladinHospitaller.titleShort>
-  <ATM_MechAdulthoodPaladinHospitaller.baseDesc>{PAWN_nameDef} - паладин госпитальер, боец, который считает бой неизбежным, но саморазрушительным. {PAWN_pronoun} стремится как можно быстрее закончить бой, чтобы сохранить благополучие и оказать милость противникам. Госпитальеры придерживаются строгого режима ухода и ремесла.</ATM_MechAdulthoodPaladinHospitaller.baseDesc>
+  <ATM_MechAdulthoodPaladinHospitaller.baseDesc>{PAWN_nameDef} — паладин госпитальер. Объединение, которое считает бой неизбежным, но саморазрушительным. {PAWN_pronoun} стремится как можно быстрее закончить бой, сохранить благополучие и оказать милосердие противникам. Госпитальеры придерживаются строгого режима ухода и ремесла.</ATM_MechAdulthoodPaladinHospitaller.baseDesc>
 
-  <ATM_MechAdulthoodJellyman.title>Джеллиман</ATM_MechAdulthoodJellyman.title>
-  <ATM_MechAdulthoodJellyman.titleShort>Джеллиман</ATM_MechAdulthoodJellyman.titleShort>
-  <ATM_MechAdulthoodJellyman.baseDesc>{PAWN_nameDef} - это джеллиман, совокупность механитов, образующих разумное существо. Их общая природа не приводит к особой специализации или каким-либо особым недостаткам.</ATM_MechAdulthoodJellyman.baseDesc>
+  <ATM_MechAdulthoodJellyman.title>Желейный</ATM_MechAdulthoodJellyman.title>
+  <ATM_MechAdulthoodJellyman.titleShort>Желейный</ATM_MechAdulthoodJellyman.titleShort>
+  <ATM_MechAdulthoodJellyman.baseDesc>{PAWN_nameDef} — это желейный человек, или совокупность механитов, образующих разумное существо. Их общая природа не приводит к определённой специализации или каким-либо особым недостаткам.</ATM_MechAdulthoodJellyman.baseDesc>
 
 
 </LanguageData>

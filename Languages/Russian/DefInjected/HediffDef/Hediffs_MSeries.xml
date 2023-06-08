@@ -2,24 +2,24 @@
 <LanguageData>
 
   <ATM_PaladinActiveArmor.label>Реактивная броня</ATM_PaladinActiveArmor.label>
-  <ATM_PaladinActiveArmor.description>Шасси этого устройства активно реагирует на полученные повреждения, значительно снижая количество будущих повреждений. Постоянные повреждения значительно снижают эффективность технического обслуживания, поскольку шасси постоянно деформируется для защиты уцелевших систем.</ATM_PaladinActiveArmor.description>
+  <ATM_PaladinActiveArmor.description>Шасси этого юнита активно реагирует на полученные повреждения, значительно снижая урон, который оно получит в результате. Устойчивые повреждения значительно снижают эффективность технического обслуживания, поскольку шасси постоянно деформируется для защиты уцелевших систем.</ATM_PaladinActiveArmor.description>
   <ATM_PaladinActiveArmor.stages.0.label>Уничтожено</ATM_PaladinActiveArmor.stages.0.label>
-  <ATM_PaladinActiveArmor.stages.1.label>Критическая реакция</ATM_PaladinActiveArmor.stages.1.label>
-  <ATM_PaladinActiveArmor.stages.2.label>Интенсивная реакция</ATM_PaladinActiveArmor.stages.2.label>
-  <ATM_PaladinActiveArmor.stages.3.label>Тяжелая реакция</ATM_PaladinActiveArmor.stages.3.label>
-  <ATM_PaladinActiveArmor.stages.4.label>Легкая реакция</ATM_PaladinActiveArmor.stages.4.label>
-  <ATM_PaladinActiveArmor.stages.5.label>Никакой реакции</ATM_PaladinActiveArmor.stages.5.label>
+  <ATM_PaladinActiveArmor.stages.1.label>Максимальная реакция</ATM_PaladinActiveArmor.stages.1.label>
+  <ATM_PaladinActiveArmor.stages.2.label>Радикальная реакция</ATM_PaladinActiveArmor.stages.2.label>
+  <ATM_PaladinActiveArmor.stages.3.label>Серьёзная реакция</ATM_PaladinActiveArmor.stages.3.label>
+  <ATM_PaladinActiveArmor.stages.4.label>Умеренная реакция</ATM_PaladinActiveArmor.stages.4.label>
+  <ATM_PaladinActiveArmor.stages.5.label>Нет реакции</ATM_PaladinActiveArmor.stages.5.label>
 
   <ATM_RepleneshingMechanites.label>Восполнение механитов</ATM_RepleneshingMechanites.label>
-  <ATM_RepleneshingMechanites.description>Многие механиты, составляющие массу тела этой пешки, были насильственно выброшены. Пока они не будут заменены, юнит будет уязвим и не сможет работать в полную силу.</ATM_RepleneshingMechanites.description>
+  <ATM_RepleneshingMechanites.description>Множество механитов, составляющих массу тела этой пешки, было сброшено. Пока они не будут заменены, юнит будет уязвим и не сможет полноценно работать.</ATM_RepleneshingMechanites.description>
   <ATM_RepleneshingMechanites.stages.0.label>Полное восстановление</ATM_RepleneshingMechanites.stages.0.label>
-  <ATM_RepleneshingMechanites.stages.1.label>Незначительные потери</ATM_RepleneshingMechanites.stages.1.label>
-  <ATM_RepleneshingMechanites.stages.2.label>Крупные потери</ATM_RepleneshingMechanites.stages.2.label>
-  <ATM_RepleneshingMechanites.stages.3.label>Тяжелые потери</ATM_RepleneshingMechanites.stages.3.label>
-  <ATM_RepleneshingMechanites.stages.4.label>Критические потери</ATM_RepleneshingMechanites.stages.4.label>
+  <ATM_RepleneshingMechanites.stages.1.label>Лёгкие потери</ATM_RepleneshingMechanites.stages.1.label>
+  <ATM_RepleneshingMechanites.stages.2.label>Средние потери</ATM_RepleneshingMechanites.stages.2.label>
+  <ATM_RepleneshingMechanites.stages.3.label>Сильные потери</ATM_RepleneshingMechanites.stages.3.label>
+  <ATM_RepleneshingMechanites.stages.4.label>Максимальные потери</ATM_RepleneshingMechanites.stages.4.label>
 
-  <ATM_RestrictiveMechanites.label>Ограничивающие механиты</ATM_RestrictiveMechanites.label>
-  <ATM_RestrictiveMechanites.description>Механиты покрывают суставы этой пешки, сильно затрудняя движения и манипуляции. Отрезанные от первоначального носителя, механиты медленно разрушаются в течение дня.</ATM_RestrictiveMechanites.description>
+  <ATM_RestrictiveMechanites.label>Сдерживающие механиты</ATM_RestrictiveMechanites.label>
+  <ATM_RestrictiveMechanites.description>Механиты покрывают суставы этой пешки, сильно затрудняя движения и манипуляции. Отрезанные от изначального носителя, механиты будут медленно разлагаться в течение суток.</ATM_RestrictiveMechanites.description>
   <ATM_RestrictiveMechanites.stages.0.label>Полное восстановление</ATM_RestrictiveMechanites.stages.0.label>
   <ATM_RestrictiveMechanites.stages.1.label>Ослабленный</ATM_RestrictiveMechanites.stages.1.label>
   <ATM_RestrictiveMechanites.stages.2.label>Обездвижен</ATM_RestrictiveMechanites.stages.2.label>
