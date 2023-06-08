@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ATM_MechFallTargetterBeam.label>Мехфолл</ATM_MechFallTargetterBeam.label>
+  <ATM_MechFallTargetterBeam.label>Целеуказатель мех</ATM_MechFallTargetterBeam.label>
 
-  <ATM_OrbitalTargeterMechFall.label>Марк 5 мишень для развертывания</ATM_OrbitalTargeterMechFall.label>
-  <ATM_OrbitalTargeterMechFall.description>Древнее устройство наведения на цель для боевого меча M5. Устройство показывает, что действительно существует полностью активный мех, ожидающий команды на сброс.</ATM_OrbitalTargeterMechFall.description>
+  <ATM_OrbitalTargeterMechFall.label>Мишень развертывания М5</ATM_OrbitalTargeterMechFall.label>
+  <ATM_OrbitalTargeterMechFall.description>Древний целеуказатель для боевого меха M5. Устройство показывает, что действительно существует полностью активный мех, ожидающий команды на снижение.</ATM_OrbitalTargeterMechFall.description>
 
 
 </LanguageData>

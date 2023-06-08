@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATM_M1WarriorUnion.label>М1 Дрон Солдат</ATM_M1WarriorUnion.label>
+  <ATM_M1WarriorUnion.labelPlural>Дроны солдаты</ATM_M1WarriorUnion.labelPlural>
+  <ATM_M1WarriorUnion.labelMale>М1 Дрон Солдат</ATM_M1WarriorUnion.labelMale>
+  <ATM_M1WarriorUnion.labelMalePlural>Дроны солдаты</ATM_M1WarriorUnion.labelMalePlural>
+  <ATM_M1WarriorUnion.labelFemale>М1 Дрон Солдат</ATM_M1WarriorUnion.labelFemale>
+  <ATM_M1WarriorUnion.labelFemalePlural>Дроны солдаты</ATM_M1WarriorUnion.labelFemalePlural>
+
+  <ATM_M2BishopUnion.label>М2 Дрон Солдат</ATM_M2BishopUnion.label>
+  <ATM_M2BishopUnion.labelPlural>Дроны солдаты</ATM_M2BishopUnion.labelPlural>
+  <ATM_M2BishopUnion.labelMale>М2 Дрон Солдат</ATM_M2BishopUnion.labelMale>
+  <ATM_M2BishopUnion.labelMalePlural>Дроны солдаты</ATM_M2BishopUnion.labelMalePlural>
+  <ATM_M2BishopUnion.labelFemale>М2 Дрон Солдат</ATM_M2BishopUnion.labelFemale>
+  <ATM_M2BishopUnion.labelFemalePlural>Дроны солдаты</ATM_M2BishopUnion.labelFemalePlural>
+
+  <ATM_M3PaladinUnion.label>М3 Паладин</ATM_M3PaladinUnion.label>
+  <ATM_M3PaladinUnion.labelPlural>Паладины</ATM_M3PaladinUnion.labelPlural>
+  <ATM_M3PaladinUnion.labelMale>М3 Паладин</ATM_M3PaladinUnion.labelMale>
+  <ATM_M3PaladinUnion.labelMalePlural>Паладины</ATM_M3PaladinUnion.labelMalePlural>
+  <ATM_M3PaladinUnion.labelFemale>М3 Паладин</ATM_M3PaladinUnion.labelFemale>
+  <ATM_M3PaladinUnion.labelFemalePlural>Паладины</ATM_M3PaladinUnion.labelFemalePlural>
+
+
+</LanguageData>

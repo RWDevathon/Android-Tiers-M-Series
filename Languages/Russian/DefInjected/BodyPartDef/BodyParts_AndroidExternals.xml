@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ATM_CoreIntegrityCage.label>сердечная клетка</ATM_CoreIntegrityCage.label>
-  <ATM_MechanicalLimb.label>конечность</ATM_MechanicalLimb.label>
+  <ATM_CoreIntegrityCage.label>сердцевина каркаса</ATM_CoreIntegrityCage.label>
+  <ATM_MechanicalLimb.label>плечо</ATM_MechanicalLimb.label>
   <ATM_MechanicalManipulator.label>манипулятор</ATM_MechanicalManipulator.label>
-  <ATM_MechaniteTorso.label>Центральный массив</ATM_MechaniteTorso.label>
-  <ATM_MechaniteHead.label>Верхний массив</ATM_MechaniteHead.label>
+  <ATM_MechaniteTorso.label>Основная масса</ATM_MechaniteTorso.label>
+  <ATM_MechaniteHead.label>Верхняя масса</ATM_MechaniteHead.label>
 
 
 </LanguageData>

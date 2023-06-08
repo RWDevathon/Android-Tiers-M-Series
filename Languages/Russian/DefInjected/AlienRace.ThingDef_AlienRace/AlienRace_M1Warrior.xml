@@ -2,11 +2,11 @@
 <LanguageData>
 
   <ATM_Mark1Warrior.label>M1 Воин</ATM_Mark1Warrior.label>
-  <ATM_Mark1Warrior.description>Воинские единицы Марк один являются стандартной базой для военных андроидов - дешевые, прочные и мощные. Они созданы для войны и только для войны, и они очень хороши в этом.\n\nИз-за своей маленькой, похожей на коробку формы они получили прозвища "боевой ящик" и "бластерное ведро", а их стандартный красный цвет краски и военная роль дали им ласковое имя "Красный плащ". Необычная форма также не позволяет носить человекоподобную одежду.</ATM_Mark1Warrior.description>
+  <ATM_Mark1Warrior.description>Военные единицы М1 — являются стандартной базой для военных андроидов — дешёвые, прочные и мощные. Эти юниты, созданы для войны и только для войны, и они очень хороши в этом.\n\nБлагодаря своей маленькой, похожей на коробку форме он получил прозвища &quot;боевой ящик&quot;, а его стандартный красный цвет окраски и военная роль, позволили ему получить название &quot;красный плащ&quot;. Необычная форма также не позволяет носить человеческую одежду.</ATM_Mark1Warrior.description>
   <ATM_Mark1Warrior.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</ATM_Mark1Warrior.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
   <ATM_Mark1Warrior.tools.0.label>правый кулак</ATM_Mark1Warrior.tools.0.label>
   <ATM_Mark1Warrior.tools.1.label>левый кулак</ATM_Mark1Warrior.tools.1.label>
-  <ATM_Mark1Warrior.tools.2.label>тело</ATM_Mark1Warrior.tools.2.label>
+  <ATM_Mark1Warrior.tools.2.label>туловище</ATM_Mark1Warrior.tools.2.label>
 
 
 </LanguageData>

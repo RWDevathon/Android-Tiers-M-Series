@@ -3,25 +3,25 @@
 
   <ATM_Mark2Body.label>Шасси Епископа</ATM_Mark2Body.label>
   <ATM_Mark2Body.corePart.parts.2.customLabel>внутренний радиатор</ATM_Mark2Body.corePart.parts.2.customLabel>
-  <ATM_Mark2Body.corePart.parts.7.customLabel>внутренний визуальный сенсор</ATM_Mark2Body.corePart.parts.7.customLabel>
+  <ATM_Mark2Body.corePart.parts.7.customLabel>внутренний оптический датчик</ATM_Mark2Body.corePart.parts.7.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.1.customLabel>левый радиатор</ATM_Mark2Body.corePart.parts.8.parts.1.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.2.customLabel>правый радиатор</ATM_Mark2Body.corePart.parts.8.parts.2.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.3.customLabel>внешний визуальный сенсор</ATM_Mark2Body.corePart.parts.8.parts.3.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.1.customLabel>левый визуальный сенсор</ATM_Mark2Body.corePart.parts.8.parts.4.parts.1.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.2.customLabel>правый визуальный сенсор</ATM_Mark2Body.corePart.parts.8.parts.4.parts.2.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.3.customLabel>левый звуковой сенсор</ATM_Mark2Body.corePart.parts.8.parts.4.parts.3.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.4.customLabel>правый звуковой сенсор</ATM_Mark2Body.corePart.parts.8.parts.4.parts.4.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.5.customLabel>первая конечность</ATM_Mark2Body.corePart.parts.8.parts.5.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.3.customLabel>внешний оптический датчик</ATM_Mark2Body.corePart.parts.8.parts.3.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.1.customLabel>левый оптический датчик</ATM_Mark2Body.corePart.parts.8.parts.4.parts.1.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.2.customLabel>правый оптический датчик</ATM_Mark2Body.corePart.parts.8.parts.4.parts.2.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.3.customLabel>левый звуковой датчик</ATM_Mark2Body.corePart.parts.8.parts.4.parts.3.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.4.parts.4.customLabel>правый звуковой датчик</ATM_Mark2Body.corePart.parts.8.parts.4.parts.4.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.5.customLabel>первое плечо</ATM_Mark2Body.corePart.parts.8.parts.5.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.5.parts.0.customLabel>первый манипулятор</ATM_Mark2Body.corePart.parts.8.parts.5.parts.0.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.6.customLabel>вторая конечность</ATM_Mark2Body.corePart.parts.8.parts.6.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.6.customLabel>второе плечо</ATM_Mark2Body.corePart.parts.8.parts.6.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.6.parts.0.customLabel>второй манипулятор</ATM_Mark2Body.corePart.parts.8.parts.6.parts.0.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.7.customLabel>третья конечность</ATM_Mark2Body.corePart.parts.8.parts.7.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.7.customLabel>третье плечо</ATM_Mark2Body.corePart.parts.8.parts.7.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.7.parts.0.customLabel>третий манипулятор</ATM_Mark2Body.corePart.parts.8.parts.7.parts.0.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.8.customLabel>четвертая конечность</ATM_Mark2Body.corePart.parts.8.parts.8.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.8.parts.0.customLabel>четвертый манипулятор</ATM_Mark2Body.corePart.parts.8.parts.8.parts.0.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.9.customLabel>пятая конечность</ATM_Mark2Body.corePart.parts.8.parts.9.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.8.customLabel>четвёртое плечо</ATM_Mark2Body.corePart.parts.8.parts.8.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.8.parts.0.customLabel>четвёртый манипулятор</ATM_Mark2Body.corePart.parts.8.parts.8.parts.0.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.9.customLabel>пятое плечо</ATM_Mark2Body.corePart.parts.8.parts.9.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.9.parts.0.customLabel>пятый манипулятор</ATM_Mark2Body.corePart.parts.8.parts.9.parts.0.customLabel>
-  <ATM_Mark2Body.corePart.parts.8.parts.10.customLabel>шестая конечность</ATM_Mark2Body.corePart.parts.8.parts.10.customLabel>
+  <ATM_Mark2Body.corePart.parts.8.parts.10.customLabel>шестое плечо</ATM_Mark2Body.corePart.parts.8.parts.10.customLabel>
   <ATM_Mark2Body.corePart.parts.8.parts.10.parts.0.customLabel>шестой манипулятор</ATM_Mark2Body.corePart.parts.8.parts.10.parts.0.customLabel>
 
 
