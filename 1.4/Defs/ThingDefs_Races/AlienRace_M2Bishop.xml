@@ -81,7 +81,6 @@
             <MHC_MaintenanceRetention>1.25</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.3</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>2</MHC_MechanicalNeedCapacity>
 			<Mass>70.0</Mass>
 		</statBases>
 		<tools>
@@ -159,8 +158,8 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <li>MHC_Coolant</li>
-                    <li>MHC_Lubrication</li>
+                    <MHC_Coolant>1</MHC_Coolant>
+                    <MHC_Lubrication>2</MHC_Lubrication>
                 </mechanicalNeeds>
             </li>
 		</modExtensions>

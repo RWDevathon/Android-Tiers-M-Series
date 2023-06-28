@@ -81,7 +81,6 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.2</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
 			<Mass>60</Mass>
 		</statBases>
 		<tools>
@@ -158,9 +157,12 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <li>MHC_Coolant</li>
-                    <li>MHC_Lubrication</li>
+                    <MHC_Coolant>0.5</MHC_Coolant>
+                    <MHC_Lubrication>1</MHC_Lubrication>
                 </mechanicalNeeds>
+            </li>
+            <li Class="MechHumanlikes.MDR_ProgrammablePawnExtension">
+                <baselineComplexityCapacity>5</baselineComplexityCapacity>
             </li>
 		</modExtensions>
 		<butcherProducts>
