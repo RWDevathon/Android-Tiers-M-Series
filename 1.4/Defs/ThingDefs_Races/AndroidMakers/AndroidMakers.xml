@@ -10,6 +10,9 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
             <researchPrerequisite>ATM_M1Warriors</researchPrerequisite>
         </recipeMaker>
         <costList>
@@ -37,6 +40,9 @@
         </graphicData>
         <recipeMaker>
             <workAmount>22500</workAmount>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
             <researchPrerequisite>ATM_M2Bishops</researchPrerequisite>
         </recipeMaker>
         <costList>
@@ -59,13 +65,16 @@
     <ThingDef ParentName="ATR_MakeableGeneratorBase">
         <defName>ATM_M3PaladinGenerator</defName>
         <label>M3 Paladin</label>
-        <description>An uninitialized Mark 3 Paladin. The very first military variant idealized, blueprinted, and created by artifical intelligences alone, the mark three variant is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, M3's instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making M3's a warfighting champion. It is inherently able to connect to the SkyMind network, and its core comes pre-initialized - the unit is incapable of having its core removed or having a receiver core installed.\n\nThe earliest M3's - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic group ideology that often is likened to ancient chivalric customs. Duels, ritualistic combat, and mild disdain for non-combatants are common. While M3's exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud M3's prefer to use the nickname "Paladin." Few are brave enough to challenge their choice.</description>
+        <description>An uninitialized Mark 3 Paladin. The very first military variant idealized, blueprinted, and created by artifical intelligences alone, the mark three variant is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, M3's instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making M3's a warfighting champion.\n\nThe earliest M3's - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic group ideology that often is likened to ancient chivalric customs. Duels, ritualistic combat, and mild disdain for non-combatants are common. While M3's exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud M3's prefer to use the nickname "Paladin." Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Mark3/ATM_MarkThreeExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
             <workAmount>28500</workAmount>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
             <researchPrerequisite>ATM_M3Paladins</researchPrerequisite>
         </recipeMaker>
         <costList>

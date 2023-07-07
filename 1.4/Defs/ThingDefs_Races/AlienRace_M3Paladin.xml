@@ -35,10 +35,10 @@
                             <layerOffset>-0.05</layerOffset>
                         </north>
                         <east>
-                            <offset>(-0.5, 0)</offset>
+                            <offset>(0.4, 0)</offset>
                         </east>
                         <west>
-                            <offset>(0.5, 0)</offset>
+                            <offset>(-0.4, 0)</offset>
                         </west>
                     </headOffsetSpecific>
                     <colorChannels Inherit="False">
@@ -190,8 +190,8 @@
                     <li>RoomSize</li>
                 </blacklistedSapientNeeds>
                 <mechanicalNeeds>
-                    <MHC_Coolant>5</MHC_Coolant>
-                    <MHC_Lubrication>7.5</MHC_Lubrication>
+                    <li><key>MHC_Coolant</key><value>5</value></li>
+                    <li><key>MHC_Lubrication</key><value>7.5</value></li>
                 </mechanicalNeeds>
             </li>
 		</modExtensions>

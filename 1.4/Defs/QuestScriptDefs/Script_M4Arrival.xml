@@ -2,7 +2,7 @@
 <Defs>
 
     <QuestScriptDef>
-        <defName>ATR_OpportunitySite_MarkFourArrival</defName>
+        <defName>ATM_OpportunitySite_MarkFourArrival</defName>
         <rootSelectionWeight>8</rootSelectionWeight>
         <rootMinPoints>2400</rootMinPoints>
         <rootIncreasesPopulation>true</rootIncreasesPopulation>
@@ -93,7 +93,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestExpired">The mysterious force beckoning you to the crashsite of the ominous meterorite has suddenly ceased. The quest [resolvedQuestName] has expired.</text>
+                                <text TKey="LetterTextQuestExpired">The mysterious force beckoning you to the crashsite of the ominous meteorite has suddenly ceased. The quest [resolvedQuestName] has expired.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>

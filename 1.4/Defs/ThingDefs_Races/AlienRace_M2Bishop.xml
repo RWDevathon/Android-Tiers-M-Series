@@ -158,8 +158,8 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <MHC_Coolant>1</MHC_Coolant>
-                    <MHC_Lubrication>2</MHC_Lubrication>
+                    <li><key>MHC_Coolant</key><value>1</value></li>
+                    <li><key>MHC_Lubrication</key><value>2</value></li>
                 </mechanicalNeeds>
             </li>
 		</modExtensions>

@@ -157,12 +157,9 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <MHC_Coolant>0.5</MHC_Coolant>
-                    <MHC_Lubrication>1</MHC_Lubrication>
+                    <li><key>MHC_Coolant</key><value>0.5</value></li>
+                    <li><key>MHC_Lubrication</key><value>1</value></li>
                 </mechanicalNeeds>
-            </li>
-            <li Class="MechHumanlikes.MDR_ProgrammablePawnExtension">
-                <baselineComplexityCapacity>5</baselineComplexityCapacity>
             </li>
 		</modExtensions>
 		<butcherProducts>

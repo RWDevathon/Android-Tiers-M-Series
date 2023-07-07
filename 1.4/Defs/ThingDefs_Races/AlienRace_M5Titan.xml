@@ -171,8 +171,8 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
                 <mechanicalNeeds>
-                    <MHC_Coolant>40</MHC_Coolant>
-                    <MHC_Lubrication>50</MHC_Lubrication>
+                    <li><key>MHC_Coolant</key><value>40</value></li>
+                    <li><key>MHC_Lubrication</key><value>50</value></li>
                 </mechanicalNeeds>
             </li>
 		</modExtensions>
