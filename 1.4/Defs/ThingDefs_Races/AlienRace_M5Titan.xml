@@ -26,6 +26,7 @@
 			</graphicPaths>
 			<generalSettings>
 				<alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<bodyTypes>
 						<li>Male</li>
 					</bodyTypes>

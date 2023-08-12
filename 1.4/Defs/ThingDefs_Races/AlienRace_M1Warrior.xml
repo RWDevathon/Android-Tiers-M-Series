@@ -16,18 +16,41 @@
                     <path>Things/Pawns/Humanlikes/Mark1/body/Naked_None</path>
                 </body>
                 <head>
-                    <path>Things/Pawns/Humanlikes/Mark1/head/None</path>
+                    <path>Things/Pawns/Humanlikes/NoneEmpty</path>
                 </head>
                 <skinShader>Cutout</skinShader>
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
+					<!--<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<headTypes>
                         <li>ATM_Mark1_None</li>
-                    </headTypes>
+                    </headTypes>-->
                     <bodyTypes>
                         <li>Male</li>
                     </bodyTypes>
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawns/Humanlikes/Mark1/head/None</path>
+                            <bodyPart>ATR_MechanicalHead</bodyPart>
+                            <defaultOffset>Head</defaultOffset>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <drawSize>0.8</drawSize>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.33</layerOffset>
+                                    <offset>(0,-0.1)</offset>
+                                </north>
+                                <south>
+                                    <offset>(0,-0.25)</offset>
+                                </south>
+                                <east>
+                                    <offset>(0.07,-0.25)</offset>
+                                </east>
+                            </offsets>
+                        </li>
+                    </bodyAddons>
+                    <!--
                     <headOffset>(0, -0.1)</headOffset>
                     <headOffsetSpecific>
                         <east>
@@ -37,6 +60,7 @@
                             <offset>(0.125, 0)</offset>
                         </west>
                     </headOffsetSpecific>
+                    -->
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -81,6 +105,7 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.2</MHC_ChargingSpeed>
+            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">15</MDR_ComplexityLimit>
 			<Mass>60</Mass>
 		</statBases>
 		<tools>
@@ -160,6 +185,19 @@
                     <li><key>MHC_Coolant</key><value>0.5</value></li>
                     <li><key>MHC_Lubrication</key><value>1</value></li>
                 </mechanicalNeeds>
+            </li>
+            <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
+                <maxDirectives>5</maxDirectives>
+                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
+                <forbiddenWorkTypes>
+                    <li>Doctor</li>
+                    <li>Research</li>
+                </forbiddenWorkTypes>
+                <inherentSkills>
+                    <li><key>Shooting</key><value>8</value></li>
+                    <li><key>Melee</key><value>8</value></li>
+                    <li><key>Construction</key><value>4</value></li>
+                </inherentSkills>
             </li>
 		</modExtensions>
 		<butcherProducts>

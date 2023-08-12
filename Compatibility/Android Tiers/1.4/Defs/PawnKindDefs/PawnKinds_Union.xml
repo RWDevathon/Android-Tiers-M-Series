@@ -6,6 +6,13 @@
 		<label>M1 Union Drone Soldier</label>
 		<labelPlural>Drone soldiers</labelPlural>
         <race>ATM_Mark1Warrior</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
         <combatPower>100</combatPower>
         <invNutrition>3.25</invNutrition>
         <minGenerationAge>20</minGenerationAge>
@@ -30,6 +37,28 @@
         </inventoryOptions>
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>17~26</initialResistanceRange>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~18</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>12~18</range>
+            </li>
+        </skills>
+        <modExtensions>
+            <li Class="MechHumanlikes.MDR_ProgrammableDroneKindExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
+                <requiredDirectives>
+                    <li>MDR_DirectiveRangeOptimized</li>
+                </requiredDirectives>
+                <discretionaryDirectives>1~2</discretionaryDirectives>
+                <discretionaryComplexity>5~20</discretionaryComplexity>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="ATR_AndroidCollectivePawnKindBase">
@@ -37,6 +66,13 @@
 		<label>M2 Union Drone Soldier</label>
 		<labelPlural>Drone soldiers</labelPlural>
         <race>ATM_Mark2Bishop</race>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATM_MSeriesBasic</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
         <combatPower>140</combatPower>
         <invNutrition>3.25</invNutrition>
         <minGenerationAge>20</minGenerationAge>

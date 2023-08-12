@@ -22,6 +22,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
 					<headTypes>
                         <li>ATM_Mark2_None</li>
                     </headTypes>
@@ -81,6 +82,7 @@
             <MHC_MaintenanceRetention>1.25</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.3</MHC_ChargingSpeed>
+            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">40</MDR_ComplexityLimit>
 			<Mass>70.0</Mass>
 		</statBases>
 		<tools>
@@ -161,6 +163,21 @@
                     <li><key>MHC_Coolant</key><value>1</value></li>
                     <li><key>MHC_Lubrication</key><value>2</value></li>
                 </mechanicalNeeds>
+            </li>
+            <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
+                <maxDirectives>8</maxDirectives>
+                <inherentDirectives>
+                    <li>MDR_DirectiveRangeOptimized</li>
+                </inherentDirectives>
+                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
+                <forbiddenWorkTypes>
+                    <li>Tailoring</li>
+                    <li>Construction</li>
+                </forbiddenWorkTypes>
+                <inherentSkills>
+                    <li><key>Shooting</key><value>10</value></li>
+                    <li><key>Melee</key><value>10</value></li>
+                </inherentSkills>
             </li>
 		</modExtensions>
 		<butcherProducts>
