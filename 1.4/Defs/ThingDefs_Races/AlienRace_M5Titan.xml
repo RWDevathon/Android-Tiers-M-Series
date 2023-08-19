@@ -155,6 +155,7 @@
         </race>
         <recipes>
             <li>MHC_MechanicalShutdown</li>
+            <li>MHC_RestoreBodyPartMechanical</li>
             <li>MHC_ReprogramDrone</li>
             <li>MHC_RebootUnit</li>
             <li>MHC_CoolantInjection</li>
