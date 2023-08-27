@@ -105,7 +105,8 @@
             <MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>1.2</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1.2</MHC_ChargingSpeed>
-            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">15</MDR_ComplexityLimit>
+            <MDR_ComplexityLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">10</MDR_ComplexityLimit>
+            <MDR_SkillLimit MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">4</MDR_SkillLimit>
 			<Mass>60</Mass>
 		</statBases>
 		<tools>
@@ -187,16 +188,10 @@
                 </mechanicalNeeds>
             </li>
             <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
-                <maxDirectives>5</maxDirectives>
-                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
-                <forbiddenWorkTypes>
-                    <li>Doctor</li>
-                    <li>Research</li>
-                </forbiddenWorkTypes>
+                <maxDirectives>3</maxDirectives>
                 <inherentSkills>
-                    <li><key>Shooting</key><value>8</value></li>
-                    <li><key>Melee</key><value>8</value></li>
-                    <li><key>Construction</key><value>4</value></li>
+                    <li><key>Shooting</key><value>4</value></li>
+                    <li><key>Melee</key><value>4</value></li>
                 </inherentSkills>
             </li>
 		</modExtensions>
