@@ -189,6 +189,7 @@
             </li>
             <li Class="MechHumanlikes.MDR_ProgrammableDroneExtension" MayRequire="Killathon.MechanicalHumanlikes.MechDronesReprogrammed">
                 <maxDirectives>3</maxDirectives>
+                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
                 <inherentSkills>
                     <li><key>Shooting</key><value>4</value></li>
                     <li><key>Melee</key><value>4</value></li>
