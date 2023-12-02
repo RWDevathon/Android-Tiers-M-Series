@@ -104,7 +104,7 @@
 			<bloodDef>ATM_MechaniteBlood</bloodDef>
 			<baseHealthScale>5</baseHealthScale>
 			<baseHungerRate>0.4</baseHungerRate>
-			<hediffGiverSets>
+			<hediffGiverSets Inherit="False">
 				<li>ATM_MechanicalPaladin</li>
 			</hediffGiverSets>
 		</race>

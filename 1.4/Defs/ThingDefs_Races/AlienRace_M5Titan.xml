@@ -143,6 +143,9 @@
 			<baseBodySize>5</baseBodySize>
 			<needsRest>false</needsRest>
             <nameGenerator>ATR_DroneNoneNames</nameGenerator>
+			<hediffGiverSets Inherit="False">
+				<li>ATM_MechanicalPaladin</li>
+			</hediffGiverSets>
 			<ageGenerationCurve>
 				<points>
                     <li>(0,0)</li>
