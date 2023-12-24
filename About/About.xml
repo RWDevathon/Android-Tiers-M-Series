@@ -35,6 +35,7 @@
     <loadAfter>
         <li>Killathon.MechanicalHumanlikesCore</li><!-- Dependency -->
         <li>Killathon.MechHumanlikes.AndroidTiersCore</li><!-- Dependency -->
+        <li>Killathon.MechHumanlikes.AndroidTiers</li><!-- Compatibility -->
     </loadAfter>
     <description><![CDATA[
 Military mechanical humanlikes, marks one through five, all designed with durability and resilience in mind.
