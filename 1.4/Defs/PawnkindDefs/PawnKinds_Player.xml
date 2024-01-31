@@ -53,9 +53,6 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-        <abilities>
-            <li>ATM_EjectMechanites</li>
-        </abilities>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="ATR_BaseNewbootPlayerPawnKind">

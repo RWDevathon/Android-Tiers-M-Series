@@ -32,6 +32,9 @@
             </graphicPaths>
             <generalSettings>
 				<immuneToAge>true</immuneToAge>
+                <abilities>
+                    <li>ATM_EjectMechanites</li>
+                </abilities>
                 <alienPartGenerator>
 					<headBodyPartDef>ATM_MechaniteHead</headBodyPartDef>
 					<headTypes>
